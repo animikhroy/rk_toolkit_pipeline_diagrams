@@ -1,4 +1,4 @@
-# A Novel Approach Toward TDA with LIGO Data Modeling
+# A Novel Approach To Topological Graph Theory with  Gravitational Wave Analysis & LIGO Data Modeling
 
 ### Table of Contents
 
