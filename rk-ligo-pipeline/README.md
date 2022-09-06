@@ -1,1 +1,1 @@
-# rk-ligo
+# rk-ligo-pipeline
