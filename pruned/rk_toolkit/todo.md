@@ -8,3 +8,4 @@
 6. General code cleanup and refactoring
 7. Write improved README on how to run everything together
 8. Remove unnecessary files.
+9. Update results and items from Animikh 1-4 on Ligo review.
