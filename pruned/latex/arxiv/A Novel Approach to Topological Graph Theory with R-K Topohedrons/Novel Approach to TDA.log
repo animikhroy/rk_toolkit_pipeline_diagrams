@@ -1,0 +1,1869 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  22 FEB 2021 12:05
+entering extended mode
+**"./Novel Approach to TDA.tex"
+("Novel Approach to TDA.tex"
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article
+.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.
+clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (sections/structure.tex
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babe
+l.sty"
+Package: babel 2020/12/16 3.52 The Babel package
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babe
+l.def"
+File: babel.def 2020/12/16 3.52 Babel common definitions
+\babel@savecnt=\count185
+\U@D=\dimen139
+\l@babelnohyphens=\language83
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtb
+abel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count186
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopt
+s.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-englis
+h\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language77) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language77) on input line 108.
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mi
+crotype.sty"
+Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\key
+val.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\MT@toks=\toks16
+\MT@count=\count187
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen140
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count188
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mi
+crotype-pdftex.def"
+File: microtype-pdftex.def 2020/12/07 v2.8 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip49
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mi
+crotype.cfg"
+File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsm
+ath.sty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amst
+ext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsg
+en.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen141
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsb
+sy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amso
+pn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count189
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count190
+\leftroot@=\count191
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count192
+\DOTSCASE@=\count193
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count194
+\c@MaxMatrixCols=\count195
+\dotsspace@=\muskip16
+\c@parentequation=\count196
+\dspbrk@lvl=\count197
+\tag@help=\toks18
+\row@=\count198
+\column@=\count199
+\maxfields@=\count266
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ams
+fonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsth
+m.sty"
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks27
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolo
+r.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
+\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def
+\pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\svgna
+m.def"
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\capt
+ion.sty"
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\capt
+ion3.sty"
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count267
+\c@continuedfloat=\count268
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\boo
+ktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count269
+\@cmidlb=\count270
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count271
+\@lastruleclass=\count272
+\@thisrulewidth=\dimen169
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\las
+tpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ams
+symb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tri
+g.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
+\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enu
+mitem.sty"
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen172
+\enit@toks=\toks28
+\enit@inbox=\box49
+\enit@count@id=\count273
+\enitdp@description=\count274
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sectsty\sect
+sty.sty"
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geo
+metry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvt
+ex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifte
+x.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count275
+\Gm@cntv=\count276
+\c@Gm@tempcnt=\count277
+\Gm@bindingoffset=\dimen173
+\Gm@wd@mp=\dimen174
+\Gm@odd@mp=\dimen175
+\Gm@even@mp=\dimen176
+\Gm@layoutwidth=\dimen177
+\Gm@layoutheight=\dimen178
+\Gm@layouthoffset=\dimen179
+\Gm@layoutvoffset=\dimen180
+\Gm@dimlist=\toks29
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geo
+metry.cfg"))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc
+.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputen
+c.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks30
+\inpenc@posthook=\toks31
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcharter\XCh
+arter.sty"
+Package: XCharter 2020/09/20 v1.208
+
+`XCharter' v1.208, 2020/09/20 Text macros for XCharter, an extension of Charter
+ (msharpe)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc
+.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2a
+enc.def"
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t2aenc.
+dfu"
+File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ly1\ly1enc.d
+ef"
+File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
+Now handling font encoding LY1 ...
+... processing UTF-8 mapping file for font encoding LY1
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ly1enc.
+dfu"
+File: ly1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcom
+p.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/carlisle\sca
+lefnt.sty")
+LaTeX Font Info:    Setting XCharter-LF sub-encoding to TS1/0 on input line 16.
+
+LaTeX Font Info:    Changing XCharter-TLF sub-encoding to TS1/0 on input line 1
+6.
+LaTeX Font Info:    Setting XCharter-OsF sub-encoding to TS1/0 on input line 16
+.
+LaTeX Font Info:    Changing XCharter-TOsF sub-encoding to TS1/0 on input line 
+16.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\eto
+olbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count278
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xstring\xstr
+ing.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xstring\xs
+tring.tex"
+\integerpart=\count279
+\decimalpart=\count280
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.
+sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontaxes\fon
+taxes.sty"
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkey
+val.sty"
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xk
+eyval.tex"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xk
+vutils.tex"
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
+)
+\XKV@depth=\count281
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fan
+cyhdr.sty"
+Package: fancyhdr 2021/01/04 v4.0 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip57
+\f@nch@O@elh=\skip58
+\f@nch@O@erh=\skip59
+\f@nch@O@olh=\skip60
+\f@nch@O@orh=\skip61
+\f@nch@O@elf=\skip62
+\f@nch@O@erf=\skip63
+\f@nch@O@olf=\skip64
+\f@nch@O@orf=\skip65
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titling\titl
+ing.sty"
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip66
+\thanksmargin=\skip67
+\droptitle=\skip68
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lettrine\let
+trine.sty"
+File: lettrine.sty 2020-03-14 v2.23 (Daniel Flipo)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/minifp\min
+ifp.sty"
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
+-based programing language.
+\MFP@loopctr=\count282
+)
+\c@DefaultLines=\count283
+\c@DefaultDepth=\count284
+\DefaultFindent=\dimen181
+\DefaultNindent=\dimen182
+\DefaultSlope=\dimen183
+\DiscardVskip=\dimen184
+\L@lbox=\box50
+\L@tbox=\box51
+\c@L@lines=\count285
+\c@L@depth=\count286
+\L@Pindent=\dimen185
+\L@Findent=\dimen186
+\L@Nindent=\dimen187
+\L@lraise=\dimen188
+\L@first=\dimen189
+\L@next=\dimen190
+\L@slope=\dimen191
+\L@height=\dimen192
+\L@novskip=\dimen193
+\L@target@ht=\dimen194
+\L@target@dp=\dimen195
+\L@target@tht=\dimen196
+\LettrineWidth=\dimen197
+\LettrineHeight=\dimen198
+\LettrineDepth=\dimen199
+\Llist@everypar=\toks34
+
+Loading lettrine.cfg
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lettrine\let
+trine.cfg"))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fix-cm.
+sty"
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.
+def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsu
+m.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\exp
+l3.sty"
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3
+backend-pdftex.def"
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count287
+\l__pdf_internal_box=\box52
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/x
+parse\xparse.sty"
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/x
+parse\xparse-generic.tex"))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsu
+m.ltd.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/changepage\c
+hangepage.sty"
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count288
+\cp@tempcnt=\count289
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bib
+latex.sty"
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdftexcmds
+\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\
+infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\lt
+xcmds.sty"
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kv
+options.sty"
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\
+kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logre
+q.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count290
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logre
+q.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count291
+\c@listtotal=\count292
+\c@listcount=\count293
+\c@liststart=\count294
+\c@liststop=\count295
+\c@citecount=\count296
+\c@citetotal=\count297
+\c@multicitecount=\count298
+\c@multicitetotal=\count299
+\c@instcount=\count300
+\c@maxnames=\count301
+\c@minnames=\count302
+\c@maxitems=\count303
+\c@minitems=\count304
+\c@citecounter=\count305
+\c@maxcitecounter=\count306
+\c@savedcitecounter=\count307
+\c@uniquelist=\count308
+\c@uniquename=\count309
+\c@refsection=\count310
+\c@refsegment=\count311
+\c@maxextratitle=\count312
+\c@maxextratitleyear=\count313
+\c@maxextraname=\count314
+\c@maxextradate=\count315
+\c@maxextraalpha=\count316
+\c@abbrvpenalty=\count317
+\c@highnamepenalty=\count318
+\c@lownamepenalty=\count319
+\c@maxparens=\count320
+\c@parenlevel=\count321
+\blx@tempcnta=\count322
+\blx@tempcntb=\count323
+\blx@tempcntc=\count324
+\blx@maxsection=\count325
+\blx@maxsegment@0=\count326
+\blx@notetype=\count327
+\blx@parenlevel@text=\count328
+\blx@parenlevel@foot=\count329
+\blx@sectionciteorder@0=\count330
+\blx@entrysetcounter=\count331
+\blx@biblioinstance=\count332
+\labelnumberwidth=\skip69
+\labelalphawidth=\skip70
+\biblabelsep=\skip71
+\bibitemsep=\skip72
+\bibnamesep=\skip73
+\bibinitsep=\skip74
+\bibparsep=\skip75
+\bibhang=\skip76
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language84
+\c@mincomprange=\count333
+\c@maxcomprange=\count334
+\c@mincompwidth=\count335
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx
+-dm.def"
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'verbose.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count336
+\c@savedafterword=\count337
+\c@annotator=\count338
+\c@savedannotator=\count339
+\c@author=\count340
+\c@savedauthor=\count341
+\c@bookauthor=\count342
+\c@savedbookauthor=\count343
+\c@commentator=\count344
+\c@savedcommentator=\count345
+\c@editor=\count346
+\c@savededitor=\count347
+\c@editora=\count348
+\c@savededitora=\count349
+\c@editorb=\count350
+\c@savededitorb=\count351
+\c@editorc=\count352
+\c@savededitorc=\count353
+\c@foreword=\count354
+\c@savedforeword=\count355
+\c@holder=\count356
+\c@savedholder=\count357
+\c@introduction=\count358
+\c@savedintroduction=\count359
+\c@namea=\count360
+\c@savednamea=\count361
+\c@nameb=\count362
+\c@savednameb=\count363
+\c@namec=\count364
+\c@savednamec=\count365
+\c@translator=\count366
+\c@savedtranslator=\count367
+\c@shortauthor=\count368
+\c@savedshortauthor=\count369
+\c@shorteditor=\count370
+\c@savedshorteditor=\count371
+\c@labelname=\count372
+\c@savedlabelname=\count373
+\c@institution=\count374
+\c@savedinstitution=\count375
+\c@lista=\count376
+\c@savedlista=\count377
+\c@listb=\count378
+\c@savedlistb=\count379
+\c@listc=\count380
+\c@savedlistc=\count381
+\c@listd=\count382
+\c@savedlistd=\count383
+\c@liste=\count384
+\c@savedliste=\count385
+\c@listf=\count386
+\c@savedlistf=\count387
+\c@location=\count388
+\c@savedlocation=\count389
+\c@organization=\count390
+\c@savedorganization=\count391
+\c@origlocation=\count392
+\c@savedoriglocation=\count393
+\c@origpublisher=\count394
+\c@savedorigpublisher=\count395
+\c@publisher=\count396
+\c@savedpublisher=\count397
+\c@language=\count398
+\c@savedlanguage=\count399
+\c@origlanguage=\count400
+\c@savedoriglanguage=\count401
+\c@pageref=\count402
+\c@savedpageref=\count403
+\shorthandwidth=\skip77
+\shortjournalwidth=\skip78
+\shortserieswidth=\skip79
+\shorttitlewidth=\skip80
+\shortauthorwidth=\skip81
+\shorteditorwidth=\skip82
+\locallabelnumberwidth=\skip83
+\locallabelalphawidth=\skip84
+\localshorthandwidth=\skip85
+\localshortjournalwidth=\skip86
+\localshortserieswidth=\skip87
+\localshorttitlewidth=\skip88
+\localshortauthorwidth=\skip89
+\localshorteditorwidth=\skip90
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx
+-compat.def"
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bib
+latex.def"
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count404
+\c@textcitetotal=\count405
+\c@textcitemaxnames=\count406
+\c@biburlbigbreakpenalty=\count407
+\c@biburlbreakpenalty=\count408
+\c@biburlnumpenalty=\count409
+\c@biburlucpenalty=\count410
+\c@biburllcpenalty=\count411
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count412
+)
+Package biblatex Info: Trying to load bibliography style 'verbose'...
+Package biblatex Info: ... file 'verbose.bbx' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx
+\verbose.bbx"
+File: verbose.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx
+\authortitle.bbx"
+File: authortitle.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx
+\standard.bbx"
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count413
+\c@bbx:relatedtotal=\count414
+)))
+Package biblatex Info: Trying to load citation style 'verbose'...
+Package biblatex Info: ... file 'verbose.cbx' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx
+\verbose.cbx"
+File: verbose.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bib
+latex.cfg"
+File: biblatex.cfg 
+)))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csq
+uotes.sty"
+Package: csquotes 2021-01-04 v5.2k context-sensitive quotations (JAW)
+\csq@reset=\count415
+\csq@gtype=\count416
+\csq@glevel=\count417
+\csq@qlevel=\count418
+\csq@maxlvl=\count419
+\csq@tshold=\count420
+\csq@ltx@everypar=\toks35
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csq
+uotes.def"
+File: csquotes.def 2021-01-04 v5.2k csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csq
+uotes.cfg"
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/background\b
+ackground.sty"
+Package: background 2014/03/04 v2.1 background material
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontend
+layer\tikz.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclay
+er\pgf.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilitie
+s\pgfrcs.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilit
+ies\pgfutil-common.tex"
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen256
+\pgfutil@tempdimb=\dimen257
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilit
+ies\pgfutil-common-lists.tex"))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilit
+ies\pgfutil-latex.def"
+\pgfutil@abb=\box53
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilit
+ies\pgfrcs.code.tex"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.re
+vision.tex")
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclay
+er\pgfcore.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemla
+yer\pgfsys.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/system
+layer\pgfsys.code.tex"
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilit
+ies\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilit
+ies\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen258
+\pgf@y=\dimen259
+\pgf@xa=\dimen260
+\pgf@ya=\dimen261
+\pgf@xb=\dimen262
+\pgf@yb=\dimen263
+\pgf@xc=\dimen264
+\pgf@yc=\dimen265
+\pgf@xd=\dimen266
+\pgf@yd=\dimen267
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count421
+\c@pgf@countb=\count422
+\c@pgf@countc=\count423
+\c@pgf@countd=\count424
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count425
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/system
+layer\pgf.cfg"
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/system
+layer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/system
+layer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/system
+layer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count426
+\pgfsyssoftpath@bigbuffer@items=\count427
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/system
+layer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcore.code.tex"
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmath.code.tex"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathcalc.code.tex"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathutil.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathparser.code.tex"
+\pgfmath@dimen=\dimen268
+\pgfmath@count=\count428
+\pgfmath@box=\box54
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.code.tex"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.basic.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.trigonometric.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.random.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.comparison.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.base.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.round.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.misc.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfunctions.integerarithmetics.code.tex")))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count429
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfint.code.tex")
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen269
+\pgf@picmaxx=\dimen270
+\pgf@picminy=\dimen271
+\pgf@picmaxy=\dimen272
+\pgf@pathminx=\dimen273
+\pgf@pathmaxx=\dimen274
+\pgf@pathminy=\dimen275
+\pgf@pathmaxy=\dimen276
+\pgf@xx=\dimen277
+\pgf@xy=\dimen278
+\pgf@yx=\dimen279
+\pgf@yy=\dimen280
+\pgf@zx=\dimen281
+\pgf@zy=\dimen282
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen283
+\pgf@path@lasty=\dimen284
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen285
+\pgf@shorten@start@additional=\dimen286
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count430
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen287
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen288
+\pgf@pt@y=\dimen289
+\pgf@pt@temp=\dimen290
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen291
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen292
+\pgf@sys@shading@range@num=\count431
+\pgf@shadingcount=\count432
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box58
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basicl
+ayer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/module
+s\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box59
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/module
+s\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatib
+ility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen293
+\pgf@nodesepend=\dimen294
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatib
+ility\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilitie
+s\pgffor.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilitie
+s\pgfkeys.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilit
+ies\pgfkeys.code.tex"))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgf
+math.sty"
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmath.code.tex"))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilit
+ies\pgffor.code.tex"
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\p
+gfmath.code.tex")
+\pgffor@iter=\dimen295
+\pgffor@skip=\dimen296
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/fronte
+ndlayer/tikz\tikz.code.tex"
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/librar
+ies\pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count433
+\pgfplotmarksize=\dimen297
+)
+\tikz@lastx=\dimen298
+\tikz@lasty=\dimen299
+\tikz@lastxsaved=\dimen300
+\tikz@lastysaved=\dimen301
+\tikz@lastmovetox=\dimen302
+\tikz@lastmovetoy=\dimen303
+\tikzleveldistance=\dimen304
+\tikzsiblingdistance=\dimen305
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count434
+\tikznumberofchildren=\count435
+\tikznumberofcurrentchild=\count436
+\tikz@fig@count=\count437
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/module
+s\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count438
+\pgfmatrixcurrentcolumn=\count439
+\pgf@matrix@numberofcolumns=\count440
+)
+\tikz@expandcount=\count441
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/fronte
+ndlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/everypage\ev
+erypage.sty"
+Package: everypage 2020/10/17 R2.0b Hooks to run on every page
+
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/latex-tools\
+afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks48
+\AP@partial=\box64
+\AP@footins=\box65
+))
+\c@theorem=\count442
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.
+sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count443
+\float@exts=\toks49
+\float@box=\box66
+\@float@everytoks=\toks50
+\@floatcapt=\box67
+)
+LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on inpu
+t line 39.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcharter\t1x
+charter-tlf.fd"
+File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-
+TLF.
+)
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 39.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+ ("Novel Approach to TDA.aux")
+\openout1 = `"Novel Approach to TDA.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 3
+9.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2a
+cmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 3
+9.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ly1\ly1ptm.f
+d"
+File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
+)
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Info: Redefining \microtypecontext on input line 39.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 39.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt
+-bch.cfg"
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\
+supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count444
+\scratchdimen=\dimen306
+\scratchbox=\box68
+\nofMPsegments=\count445
+\nofMParguments=\count446
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count447
+\MPscratchDim=\dimen307
+\MPnumerator=\count448
+\makeMPintoPDFobject=\count449
+\everyMPtoPDFconversion=\toks52
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg
+\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen308
+\caption@adjustwidth@linewidth=\dimen309
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 39.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 773.91498pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=706.91498pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-43.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=19.91692pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@mv@tabular=\count450
+\c@mv@boldtabular=\count451
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx
+\english.lbx"
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-01-09 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx
+-case-expl3.sty"
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `"Novel Approach to TDA.bcf"'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '"Novel Approach to TDA".bbl' found.
+ ("Novel Approach to TDA.bbl")
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
+3.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ph
+v.fd"
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+
+ []
+
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 43.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt
+-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ums
+a.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt
+-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\ums
+b.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt
+-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 48.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 28.94pt on input line 48.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 42.55861pt on input line 48.
+Package lettrine.sty Info: Targeted height = 28.94pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 28.93987pt (\color {DarkGoldenrod}
+{G});
+(lettrine.sty)             reported on input line 48.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 48.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(sections/intro.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 1.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 1.
+
+Underfull \hbox (badness 3312) in paragraph at lines 2--3
+\T1/XCharter-TLF/m/n/10 (+20) Since the ad-vent of the "next-generation" high-
+ []
+
+[1{C:/Users/Animikh Roy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 13.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 16.
+)
+(sections/tda.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
+
+
+LaTeX Warning: Citation 'Michel2017' on page 2 undefined on input line 2.
+
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+[2]) (sections/phase_shift.tex
+<images/phase.png, id=15, 479.7925pt x 324.21124pt>
+File: images/phase.png Graphic file (type png)
+<use images/phase.png>
+Package pdftex.def Info: images/phase.png  used on input line 9.
+(pdftex.def)             Requested size: 231.88997pt x 156.69807pt.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 10.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 10.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 10.
+) (sections/formulation.tex
+<images/pipeline3.png, id=17, 1300.86pt x 474.0912pt>
+File: images/pipeline3.png Graphic file (type png)
+<use images/pipeline3.png>
+Package pdftex.def Info: images/pipeline3.png  used on input line 7.
+(pdftex.def)             Requested size: 483.69687pt x 176.27908pt.
+LaTeX Font Info:    Trying to load font information for TS1+XCharter-TLF on inp
+ut line 15.
+
+("C:\Users\Animikh Roy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcharter\ts1
+xcharter-tlf.fd"
+File: TS1XCharter-TLF.fd 2020/05/25 (msharpe) Font definitions for TS1/XCharter
+-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 15.
+Package microtype Info: Character `textbardbl ' is missing
+(microtype)             in font `TS1/XCharter-TLF/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textcelsius ' is missing
+(microtype)             in font `TS1/XCharter-TLF/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+ [3 <./images/phase.png>]
+
+LaTeX Warning: Citation 'Piegl' on page 4 undefined on input line 26.
+
+[4 <./images/pipeline3.png
+
+pdfTeX warning: pdflatex.exe (file ./images/pipeline3.png): large interlaced PN
+G might cause out of memory (use non-interlaced PNG to fix this)
+>]
+<images/vrcomplex.png, id=34, 816.04875pt x 564.1075pt>
+File: images/vrcomplex.png Graphic file (type png)
+<use images/vrcomplex.png>
+Package pdftex.def Info: images/vrcomplex.png  used on input line 65.
+(pdftex.def)             Requested size: 231.88997pt x 160.29889pt.
+<images/vectoraddition.jpg, id=35, 335.00156pt x 176.91093pt>
+File: images/vectoraddition.jpg Graphic file (type jpg)
+<use images/vectoraddition.jpg>
+Package pdftex.def Info: images/vectoraddition.jpg  used on input line 80.
+(pdftex.def)             Requested size: 231.88997pt x 122.45738pt.
+ [5 <./images/vrcomplex.png> <./images/vectoraddition.jpg>]
+<images/classes.png, id=43, 589.20125pt x 483.8075pt>
+File: images/classes.png Graphic file (type png)
+<use images/classes.png>
+Package pdftex.def Info: images/classes.png  used on input line 116.
+(pdftex.def)             Requested size: 231.88997pt x 190.41162pt.
+
+Underfull \vbox (badness 3229) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+
+LaTeX Warning: Citation 'Bianconi2009' on page 6 undefined on input line 143.
+
+) (sections/discussion.tex) [6 <./images/classes.png>]
+
+LaTeX Warning: Empty bibliography on input line 72.
+
+
+AED: lastpage setting LastPage
+("Novel Approach to TDA.aux")
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                "Novel Approach to TDA"
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to '"Novel Approach to TDA".run.xml'.
+\openout1 = `"Novel Approach to TDA.run.xml"'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 29149 strings out of 479584
+ 564521 string characters out of 2858558
+ 1381014 words of memory out of 3000000
+ 45456 multiletter control sequences out of 15000+200000
+ 564203 words of font info for 292 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,12n,102p,2383b,1646s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/xchar
+ter/xch1_co4ru4.enc}{C:/Users/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/enc/dvips/xcharter/xch_rydp4l.enc}{C:/Users/Animikh Roy/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Animikh Roy/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Users/Anim
+ikh Roy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-
+Italic.pfb><C:/Users/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/xcharter/XCharter-Roman.pfb><C:/Users/Animikh Roy/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Animikh Roy/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
+ers/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb><C:/Users/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi9.pfb><C:/Users/Animikh Roy/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Animikh Roy/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Anim
+ikh Roy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><C:/Users/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr9.pfb><C:/Users/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Animikh Roy/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Animikh Roy/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/
+Users/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb><C:/Users/Animikh Roy/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on "Novel Approach to TDA.pdf" (6 pages, 1192535 bytes).
+PDF statistics:
+ 101 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 68134 words of extra memory for PDF output out of 74296 (max. 10000000)
+
