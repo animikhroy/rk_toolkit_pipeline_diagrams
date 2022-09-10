@@ -9,3 +9,5 @@
 7. Write improved README on how to run everything together
 8. Remove unnecessary files.
 9. Update results and items from Animikh 1-4 on Ligo review.
+
+Todo task board updated for reference with  priorities and task distribution in the following link on Notion: https://dot-terrier-969.notion.site/686f90e5615445c5bdd7753d32e5028f?v=1256c9f6528142a4aa367ef1d1d90b23
