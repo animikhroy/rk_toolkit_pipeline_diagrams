@@ -1,0 +1,112 @@
+\documentclass{article}
+
+\usepackage{arxiv}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{dirtytalk}
+\usepackage{color}
+\usepackage{listings,newtxtt}
+
+\usepackage{hyperref}
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{cuted}
+\setlength{\columnsep}{1cm}
+\graphicspath{ {./images/} }
+%\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{float}
+
+\usepackage[
+backend=biber,
+sorting=ynt
+]{biblatex}
+
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{1.1\baselineskip}{\baselineskip}
+\titlespacing*{\subsection}{0pt}{1.1\baselineskip}{\baselineskip}
+\titlespacing*{\subsubsection}{0pt}{1.1\baselineskip}{\baselineskip}
+
+
+\leftmargin=25pt
+\rightmargin=0pt
+\labelsep=5pt
+\labelwidth=20pt
+\itemindent=0pt
+\listparindent=0pt
+\topsep=0pt plus 2pt minus 4pt
+\partopsep=0pt plus 1pt minus 1pt
+\parsep=0pt plus 1pt
+\itemsep=\parsep
+
+\addbibresource{novel_approach_to_topological_graph_theory_with_rk_diagrams_and_gravitational_wave_analysis.bib}
+
+\DeclareUnicodeCharacter{2212}{-}
+\DeclareUnicodeCharacter{2009}{=}
+
+\title{ \LARGE A Novel Approach to Topological Graph Theory\newline\newline With R-K Diagrams \& Gravitational Wave Analysis\ }
+
+\author{
+ Animikh Roy \\
+  School of Mathematical \& Physical Sciences\\
+  University of Sussex\\
+  Brighton BN1 9QH \\
+  \texttt{ar505@sussex.ac.uk}
+   \And
+   Andor Kesselman\\
+   Senior Software Engineer \\
+   Pathr.ai \\
+   Mountain View, California, USA\\
+  \texttt{andor@henosisknot.com}\\
+}
+
+\begin{document}
+
+\lstset{basicstyle=\ttfamily, keywordstyle=\bfseries}
+\maketitle
+
+\input{sections/abstract}
+
+\vskip15mm
+
+\begin{multicols}{2}
+
+ \input{sections/introduction}
+ \input{sections/formulaism}
+ \input{sections/novel_approach}
+ \input{sections/implementation}
+ \input{sections/store_sales}
+ \input{sections/ligo}
+ \input{sections/conclusion}
+
+
+\end{multicols}
+
+%\bibliographystyle{unsrt}
+%\bibliography{references}  %%% Remove comment to use the external .bib file (using bibtex).
+%%% and comment out the ``thebibliography'' section.
+%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+
+%\bibliographystyle{plain}
+\printbibliography
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Comment out this section when you \bibliography{references} is enabled.
+
+
+\end{document}

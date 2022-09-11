@@ -1,0 +1,76 @@
+\documentclass[10pt, a4paper, twocolumn]{article} 
+% PREAMBLE
+\input{sections/structure.tex} % Specifies the document structure and loads requires packages
+
+
+\title{A Novel Approach to \newline Topological Graph Theory \newline\newline \LARGE With R-K Tophedrons \& LIGO Data Modelling} 
+
+\author{
+	\authorstyle{By: Animikh Roy\textsuperscript{1} and Andor Kesselman\textsuperscript{2}} % Authors
+	%\newline\newline
+	%\textsuperscript{2}\institution{University of Sussex}}
+}
+\date{\today}
+
+% DOCUMENT
+\usepackage{background}
+\usepackage{amsthm}
+%\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{procedure}[section]{Procedure}
+\newtheorem{property}[theorem]{Property}
+
+\backgroundsetup{
+  position=current page.west,
+  angle=-90,
+  nodeanchor=west,
+  color=gray,
+  vshift=5mm,
+  opacity=1,
+  scale=2,
+  contents=DRAFT v1 FOR ARXIV.ORG
+}
+\usepackage{float}
+
+\begin{document}
+\newpage
+%\tableofcontents
+
+\maketitle
+\thispagestyle{firstpage} 
+
+% ABSTRACT
+
+\lettrineabstract{Graph Theory and Topological Data Analytics are emerging as new and independent sets of highly effective tools for the multi-dimensional analysis of large datasets with intrinsic geometric properties. They are mathematically grounded methods that extract information from the inherent geometric nature of data by revealing concrete and useful analytical insights from multi-dimensional hidden layers of information. Graph Analytics has already proven to bring about a paradigm shift beyond the established capabilities of RDBMs through consistent and interdependent network hierarchy models. Whereas, Topological Data Analysis has been a more recently popularized approach for data compression and analysis of complex high dimensional data sets in the form of Phase Space projected Simplicial Complexes. The most common algorithm used in Topological Data Analysis is called Mapper, which uses partial clustering and persistent homology for Topological shape rendering and Isometric Data Compression. Although very powerful as a tool for scientific data analysis, the existing Mappers and Topological models have many drawbacks related to their sensitivity and consistency with Graph Network Analytics. In this paper, we aim to propose a novel approach for encoding vectorized associations between data points for the purpose of enabling smooth transitions between Graph and Topological Data Analytics. We also conclusively reveal effective ways of converting such vectorized associations to simplicial complexes in Topological Phase Space, resulting in filter specific, Homotopic Self-Expressive, ‘Invariant-Topohedrons’ with persistent Homology. Using filter based, self-expressed ML driven representations for data compression, we finally demonstrate the theory behind a shape invariant encoding in strong correspondence with Topological Network Entropy. The novel formulation of this work could lay the foundation for many future scientific and engineering applications for stable, high-dimensional data analysis purposes, especially with the advent of Cloud Distributed Massive Parallel Processing in the fields of Big-data Astronomy and beyond. It is focused to bring about the combined effectiveness of Topological Graph Theory formulations under a singularly effective framework.}
+
+% ARTICLE CONTENTS
+
+\input{sections/intro.tex}
+\input{sections/tda.tex}
+%\input{sections/topology.tex}
+\input{sections/phase_shift.tex}
+%\input{sections/avectors.tex}
+%\input{sections/selfexpression.tex}
+%\input{sections/roytopohedron.tex}
+%\input{sections/lens.tex}
+%\input{sections/proofs.tex}
+\input{sections/formulation.tex}
+\input{sections/discussion.tex}
+% \input{sections2/legal.tex}
+%\input{sections2/supplements.tex}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\newpage
+\newpage
+
+\printbibliography[title={Bibliography}] 
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>RK-Toolkit Documentation &mdash; rktoolkit 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> rktoolkit
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">RK-Toolkit Documentation</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#readme-file">Readme File</a></li>
+<li><a class="reference internal" href="#example-pipeline">Example Pipeline</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">rktoolkit</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>RK-Toolkit Documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rk-toolkit-documentation">
+<h1>RK-Toolkit Documentation<a class="headerlink" href="#rk-toolkit-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="readme-file">
+<h1>Readme File<a class="headerlink" href="#readme-file" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="example-pipeline">
+<h1>Example Pipeline<a class="headerlink" href="#example-pipeline" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">example_pipeline</span> <span class="o">=</span> <span class="n">RKPipeline</span><span class="p">(</span><span class="n">preprocess_nodes</span><span class="o">=</span><span class="p">[</span><span class="n">MinMaxNormalizerNode</span><span class="p">()],</span>
+                              <span class="n">localization_algorithm</span><span class="o">=</span><span class="n">MaxLocalizer</span><span class="p">(),</span>
+                              <span class="n">hierarchical_embedding_nodes</span><span class="o">=</span> <span class="p">[</span>
+                                 <span class="p">{</span>
+                                    <span class="s2">&quot;HFeatureExtractor1&quot;</span><span class="p">:</span> <span class="n">HierarchicalFeatureExtractor1</span><span class="p">()</span>
+                                 <span class="p">}</span>
+                              <span class="p">],</span>
+                              <span class="n">filter_functions</span><span class="o">=</span><span class="p">[</span>
+                                 <span class="p">{</span>
+                                    <span class="s2">&quot;HFeatureExtractor1&quot;</span> <span class="p">:</span>
+                                    <span class="p">{</span>
+                                          <span class="s1">&#39;range_measure&#39;</span><span class="p">:</span> <span class="n">StaticFilter</span><span class="p">(</span><span class="nb">min</span><span class="o">=.</span><span class="mi">2</span><span class="p">,</span> <span class="nb">max</span><span class="o">=.</span><span class="mi">8</span><span class="p">),</span>
+                                          <span class="s1">&#39;max_measure&#39;</span><span class="p">:</span> <span class="n">StaticFilter</span><span class="p">(</span><span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+                                    <span class="p">}</span>
+                                 <span class="p">}</span>
+                              <span class="p">],</span> <span class="c1"># question: how to define which limits for which measure. Each filter and linkage has to be BY CLUSTER</span>
+                              <span class="n">linkage_function</span><span class="o">=</span><span class="n">SimpleLinkage</span><span class="p">(</span><span class="n">threshold</span><span class="o">=.</span><span class="mi">8</span><span class="p">))</span>
+                              <span class="n">example_pipeline</span><span class="o">.</span><span class="n">build</span><span class="p">()</span>
+<span class="n">example_pipeline</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+<span class="n">rk_model</span> <span class="o">=</span> <span class="n">example_pipeline</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+<span class="n">rk_models</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rk_model</span><span class="p">)</span>
+
+<span class="n">visualizer</span> <span class="o">=</span> <span class="n">RKModelVisualizer</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s2">&quot;circular&quot;</span><span class="p">)</span>
+<span class="n">visualizer</span><span class="o">.</span><span class="n">build</span><span class="p">(</span><span class="n">rk_models</span><span class="p">)</span> <span class="c1"># build requires a list of rk_models</span>
+<span class="n">visualizer</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Andor Kesselman.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
