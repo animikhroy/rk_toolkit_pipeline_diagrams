@@ -1,0 +1,158 @@
+#+TITLE: Computational Pipeline Section
+
+* Introduction
+
+An RK-Pipeline, is the process of moving between an NxM Tensor into
+an RK-Model and visualized as an RK-Diagram. The benefits of an RK-Model over
+traditional models are numerous, including the fact that an RK-Model is a
+compact representation that perserves topology and encodes structure in high
+dimensional data. The following section will focus on the RK Toolkit library
+and go through the various transformation steps from an NxM Tensor into a
+visualized RK-Diagram. This novel approach toward topological data analysis
+is extendable through the SDK hosted on github.com/andorsk/rk_toolkit. Examples
+of how to use the toolkit are also hosted there.
+
+There are a few novel concepts and objects within the pipeline as well as
+the entire pipeline itself, by virtue of it's components and ordering, that
+provide a new and novel approach toward topological data analysis.
+
+* RK Pipeline
+
+An RK-Pipeline is a unidirectonal pipeline that builds an RK-Model from a
+incoming dataset.
+
+Figure 1 shows a diagram with the RK-Pipeline specified
+
+![../imgs/rk-flow.png](../imgs/rk-flow.png)
+
+Composed together are the following steps:
+
+1. Preprocess Steps
+2. Localization Algorithm
+3. Hierarchical Feature Extraction Nodes
+4. Filter Functions
+5. Linkage Functions
+
+Composed together, these component synethesize an RK-Model. An RK-Model
+is described in the models section below
+
+** Models
+
+The following concepts are introduced in the RK-Pipeline
+
+*** RK-Model:
+An RK-Model is a composite datastructure that looks like below:
+![../imgs/rk-model.png](../imgs/rk-model.png)
+*** Graph Node Mask:
+A graph mask is a masking object against nodes in a graph. When
+an element of a mask is True, the node is masked and hidden in the
+corresponding graph. When the element is False, the node is not hidden.
+Computing these masks are useful for restricting a set into a subset.
+*** Heirarchical Feature Graph
+A hierarchical feature graph is an explicit graph where features are
+arranged in an hierarchical fashion to "concepts". As an example,
+if you weigh multiple mass measures, they would be all under a
+"mass" parent. Similarly, other measures can be associated together
+to create parent data structures.
+
+Currently only supported in single level structures, however there
+is room for research on multi-level structures
+*** RK-Diagram
+An RK-Digram is a visualization of an RK-Model. It contains properties
+related to visualization and aesthetics that are not contained in the core
+RK-Model
+
+*** Graph Filter Function
+A filter function is a function that takes in a node and filters
+based upon a set of contraints
+
+*** RK-Pipeline:
+An RK-Pipeline is the composition of multiple steps to form an RK-Model
+
+* Preprocess Steps
+
+We denote the proprocess step as $preprocess(x)$ where $preprocess$ is a
+transformation function that can do n operations to X, serially, to manipulate
+the original data into something more consumable. An example would be a qtransform
+against frequency data, to give a multi-dimensional view of 1D data.
+
+The preprocess step is the probably the most familiar step to most ML pipelines
+within an RK-Pipeline. There is nothing novel about this preprocess step when
+related to other RK-Pipelines, aside from fact that it is part of the pipeline,
+and should be a specified component (even it is a passthrough component)
+
+For some analysis such as LIGO analysis from <paper>, this preprocess step is
+critical.
+
+* Localization Algorithm
+
+The localization algorithm takes in an NxM tensor and localizes it to some
+global space. This is important when looking at RK-Models in conjunction with
+eachother. It could be driven by temporal, spatial, or other concerns.
+
+It's process is forked from the original pipeline, and does not impact
+the rest of the pipeline. It's only use is to localize a model in a global
+setting, to give better contextual ability to the model and allow for easier
+comparisions.
+
+In the case where there is no ability to localize models, models will
+be placed in index in n dimensions.
+
+* Hierarchical Feature Extraction
+
+Following the preprocess steps, an NxM tensor is generated, which now must go through
+the HFE pipeline.
+
+** NxM tensor -> HFE(X)
+where HFE creates an Heirarchical Feature Graph
+
+* Graph Filter Functions
+A filter function is a function that takes in a node and filters
+based upon a set of contraints
+
+* Linkage Functions
+
+* RK-Models
+An RK-Model is a composite datastructure build from an RK-Pipeline.
+
+* RK-Diagrams
+An RK-Digram is a visualization of an RK-Model. It contains properties
+related to visualization and aesthetics that are not contained in the core
+RK-Model.
+
+* RK Toolkit
+Hosted on github.com and can be extended.
+
+An example of building a pipeline is below
+
+#+BEGIN_SRC python
+
+   H = HeirarchicalExtractionPipeline()
+
+   example_pipeline = RKPipeline(preprocess_nodes=[MinMaxNormalizerNode()],
+                                 localization_algorithm=MaxLocalizer(),
+                                 hierarchical_embedding_nodes= H,
+                                 filter_functions=[
+                                      {
+                                          "HFeatureExtractor1" :
+                                          {
+                                              'range_measure': StaticFilter(min=.2, max=.8),
+                                              'max_measure': StaticFilter(min=0, max=1)
+                                          }
+                                       }
+                                  ], # question: how to define which limits for which measure. Each filter and linkage has to be BY CLUSTER
+                                  linkage_function=SimpleLinkage(threshold=.8))
+
+                                  example_pipeline.build()
+    example_pipeline.fit(X)
+    rk_model = example_pipeline.transform(X)
+    rk_models.append(rk_model)
+
+    visualizer = RKModelVisualizer(method="circular")
+    visualizer.build(rk_models) # build requires a list of rk_models
+    visualizer.show()
+
+#+END_SRC
+* Scalability concerns and Other Interfaces
+
+* Future Research
