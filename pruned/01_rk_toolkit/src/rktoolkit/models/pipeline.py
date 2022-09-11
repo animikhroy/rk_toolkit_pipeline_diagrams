@@ -5,6 +5,7 @@ from .graph import (
     GraphMask,
     RKModel
 )
+
 from .functions import *
 from typing import List, Optional, Callable, TypedDict
 from ..functions.localization_functions import IterableLocalizationFunction
@@ -12,72 +13,58 @@ from ..functions.linkage_functions import SimpleLinkageFunction
 from ..functions.htg_transformers import CorrelationHTGGenerator
 from ..functions.filters import StaticFilter
 
-class RKPipeline(BaseModel):
-    '''
-    RK Pipeline Builder
+class RKPipeline():
 
-    The RK Pipeline builder builds a RK pipeline. It is a framework. Required
-    to build that framework is the following:
+    def check_valid_node(self, node) -> bool:
+        if "value" not in node:
+            return False
+        if not isinstance(node["value"], numbers.Number):
+            return False
+        return True
 
-    Required
-    HFE: A Hierarchical Transform Graph. It returns a Hierarchy Graph
-    Filter Function: A map of filter functions to parent nodes. Specify 'all' as the
-    key for a override to all parent nodes
-    Linkage: the linkage func
-    '''
-    preprocess_nodes: Optional[List[TreeTransformNode]] = []
-    localization_algorithm: Optional[LocalizationFunction] = IterableLocalizationFunction()
-    hfe:HierarchicalTransformGraph = CorrelationHTGGenerator(),
-    filters: TypedDict[str, FilterFunction] = {'all': StaticFilter()}
-    linkers: TypedDict[str, LinkageFunction] = {'all': SimpleLinkageFunction(threshold=-1)}
+    def __init__(self, filter_map: dict, linkage_map: dict, structural_graph = None):
+        self.filter_map = filter_map
+        self.linkage_map = linkage_map
+        self.structural_graph = structural_graph
 
-    class Config:
-        arbitrary_types_allowed = True
+    def transform(self, G, is_base=True):
+        if is_base:
+            self.structural_graph = G
+        gC = copy.deepcopy(G)
+        for k, v in self.linkage_map.items():
+            gC = v.link(G)
+        masks = set()
+        for n, f in self.filter_map.items():
+            if self.check_valid_node(self.structural_graph.nodes[n]):
+                if f.filter(gC.nodes[n]):
+                    for child in G.get_children(n, recursive=True):
+                        masks.add(child)
+                    masks.add(n)
 
-    def fit(self, X, y):
-        for n in self.preprocess_nodes:
-            n.fit(X,y)
+        return RKModel(self.structural_graph, list(masks), gC.edges)
 
-    def transform(self, X):
+    def remap(self, vmap, cols):
+        pcopy = copy.deepcopy(self)
+        for i, v in enumerate(vmap):
+            col = cols[i]
+            knb = col.split("_", maxsplit=2)[1]
+            key = col.split("_", maxsplit=2)[2]
+            if col.split("_")[0] == "filter":
+                pcopy.filter_map[key].set_knob(knb, v)
+            if col.split("_")[0] == "linkage":
+                pcopy.linkage_map[key].set_knob(knb, v)
+        return pcopy
 
-        # Step 1: run through preprocess nodes
-        for node in self.preprocess_nodes:
-            X = node.transform(X)
-
-        # Step 2: localize data
-        loc = self.localization_algorithm.localize(X)
-
-        # Step 3: Run through hierarchical transform graph
-        hgraph = self.hfe.transform(X)
-
-        # Step 4: Run through Filter Functions
-        gm = GraphMask()
-        for k, f in self.filters.items():
-            # get the filter function node
-            n1 = hgraph.get_node_by_id(k)
-            if n1 is None:
-                raise ValueError("You've mapped a filter function \
-                to a non-existant correspondence. Make sure to link \
-                the filter function to an id fomr the hfe")
-            ns = f.filter(n1.value)
-            if ns:
-                gm.mask_node(n1)
-
-        links = []
-
-        # Step 5: Build links
-        for k, f in self.linkers.items():
-            # get the filter function node
-            n1 = hgraph.get_node_by_id(k)
-            if n1 is None:
-                raise ValueError("You've mapped a filter function \
-                to a non-existant correspondence. Make sure to link \
-                the filter function to an id fomr the hfe")
-            links.extend(f.link(n1.value))
-
-        return RKModel(
-            mask = gm,
-            hgraph = hgraph,
-            links = links,
-            location = loc
-        )
+    def get_w(self):
+        vmap, cols = [], []
+        for k,v in self.filter_map.items():
+            knbs = v.get_knobs()
+            for i, l in knbs.items():
+                cols.append('{}_{}_{}'.format('filter', i, k))
+                vmap.append(l)
+        for k,v in self.linkage_map.items():
+            knbs = v.get_knobs()
+            for i, l in knbs.items():
+                cols.append('{}_{}_{}'.format('linkage', i, k))
+                vmap.append(l)
+        return vmap, cols
