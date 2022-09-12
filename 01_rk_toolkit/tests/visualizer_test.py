@@ -1,9 +1,12 @@
 from rktoolkit.visualizers.circular import CircularVisualizer, CircularVisualizerSpec
 from rktoolkit.models.graph import RKModel, HierarchicalGraph, TreeNode, Edge, GraphMask
 
+'''
+TODO: Re-evaluate tests and see if these are correct as some updates came through.
+'''
 def test_rkmodel_visualizer_circular(): # Tests an rkmodel visaulizer: Circular pattern
-
     '''
+    TODO: Revisit this
     Example Visualization Test
     Using the Circular Method
     '''
