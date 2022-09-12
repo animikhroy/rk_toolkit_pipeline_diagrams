@@ -7,48 +7,32 @@ and Animikh Roy.
 The core packages of this can be extended to many use csaes. Check out the 
 LIGO DK-Diagram Pipeline for a specific implementation done on the LIGO dataset
 
-### How to use:
+#### Installation
+``` sh
+python -m pip install .
+```
 
-A general flow diagram can be seen below: 
+#### Using a module
 
-![rk-flow](imgs/rk-flow.png)
+**TODO: FIX**
+To use a module:
+``` sh
+from rktoolkit.visualizers.networkx.dendrogram import hierarchy_pos
+from rktoolkit.pipeline import RKPipeline
 
-To model your data through RK-Diagrams, you must define the following: 
+# make filters and get structural graph
+pipeline = RKPipeline(filter_map=filters, linkage_map=linkers, structural_graph=g) 
 
-1. A Preprocess Pipeline
-2. A Hierarchal Extraction Feature Embedding
-3. A Filter function
-4. A Linkage function
-5. Localization
+# get the base transform
+base = hft.transform(event)
+rkm = pipeline.transform(base, is_base=False)
+visualize_rkmodel(rkm)
+```
 
-See the ligo-flow for an example
+##### Running Tests
+``` sh
+pytest -m .
+```
 
-
-### Section: Computational Pipeline
-
-0. Introduction
-   - NxM Tensor -> RK-Model -> RK-Diagram
-   - RK SDK
-1. Prepocess Pipeline
-   - NxM Tensor -> NxM Tensor
-2. Localization Algorithm
-   - NxM Tensor -> nD Tensor that localizes
-3. Hierarchical Feature Extraction
-   - NxM Tensor -> HierarchicalGraphModel (HGM)
-4. Filter Functions
-   - HGM -> GraphMask
-5. Linkage Functions
-   - HGM -> List[Edges]
-6. RK-Models. 
-   - As a composite structure built from 3,4, and 5
-7. Putting it together in an RK-Model Pipeline
-8. Visualization
-   - RK-Models -> RK-Diagrams. Visualization Functions and Interfacing (locally and globally)
-9. Datastore 
-10. RK Toolkit
-   - Repository and how it works
-11. Extension: RK-Diagram Toolkit w/ LIGO
-12. Areas of further reasearch and known shortcomings
-   - Serial pipeline
-   - ML
-   - PH
+### 
+Check the notebooks sections for more details.
