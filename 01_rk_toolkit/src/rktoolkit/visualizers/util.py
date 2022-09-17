@@ -1,7 +1,9 @@
-from networkx.dendrogram import hierarchy_pos
+from .networkx.dendrogram import hierarchy_pos
 import math
 import numbers
 import matplotlib.pyplot as plt
+import numpy as np
+import networkx as nx
 
 def draw_graph(G, ax=None, with_labels=True, minsize=100,
                     alpha=300, emult=2, make_axis=False, width=2*math.pi):

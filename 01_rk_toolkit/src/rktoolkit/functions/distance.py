@@ -1,4 +1,5 @@
 import scipy as sp
+import numpy as np
 
 def jaccard(s1, s2): # two sets
     '''

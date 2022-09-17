@@ -141,9 +141,11 @@ class Graph(DiGraph):
 
 class Edge():
 
-    def __init__(self, u, v, attributes={}):
+    def __init__(self, u, v, w=1, type=None, attributes={}):
         self.u = u
         self.v = v
+        self.w = w
+        self.type = type
         self.attributes = attributes
 
     def to_dict(self):
@@ -171,23 +173,6 @@ TODO: figure out how much is still used and remove bad components
 class EdgeType(Enum):
     UNDIRECTED=1
     DIRECTED=2
-
-class Edge(BaseModel):
-    from_id: str
-    to_id: str
-    id: Optional[str]
-    edge_type: EdgeType = EdgeType.UNDIRECTED
-    weight: Optional[float]  = 1
-    attributes: Optional[dict] = None
-    '''
-    A graph edge links nodes together
-    using the nodeid.
-    '''
-
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-        if self.id is None:
-            self.id = str(uuid.uuid4())
 
 class Node(BaseModel):
     id: Optional[str] = None
@@ -225,7 +210,7 @@ class GraphModel(BaseModel):
     of nodes and edges
     '''
     nodes: Optional[Node] = []
-    edges: Optional[Edge] = []
+#    edges: Optional[Edge] = []
     _nids: dict = PrivateAttr()
 
     def __init__(self, **data):

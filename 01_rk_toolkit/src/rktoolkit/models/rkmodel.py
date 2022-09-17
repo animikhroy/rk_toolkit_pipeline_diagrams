@@ -1,5 +1,6 @@
 import copy
 import numbers
+from .graph import Edge, GraphMask
 
 class RKModel():
     '''

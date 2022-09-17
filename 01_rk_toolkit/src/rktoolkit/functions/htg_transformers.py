@@ -1,6 +1,7 @@
-from ..models.graph import HierarchicalTransformGraph, TreeNode, TreeTransformNode
+from ..models.graph import HierarchicalTransformGraph, TreeNode, TreeTransformNode, Graph, Vertex, Edge
 import pandas as pd
-
+import matplotlib
+import numpy as np
 
 class BaseOntologyTransform():
     '''

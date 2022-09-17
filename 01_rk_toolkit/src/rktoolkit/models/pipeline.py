@@ -12,6 +12,8 @@ from ..functions.localizers import IterableLocalizationFunction
 from ..functions.linkers import SimpleLinkageFunction
 from ..functions.htg_transformers import CorrelationHTGGenerator
 from ..functions.filters import RangeFilter
+import copy
+import numbers
 
 class RKPipeline():
 
