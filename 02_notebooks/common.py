@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 from networkx.classes.digraph import DiGraph
+from rktoolkit.functions.distance import mahalanobis, jaccard
+import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
 import matplotlib
 from common import *
 import itertools
+import time
+import nevergrad as ng
+from rktoolkit.visualizers.util import draw_rk_diagram
+from rktoolkit.ml.objective_functions import SampleObjectiveFunction
 
 def visualize_n(graphs, n=1, *args, **kwargs):
     fig, ax = plt.subplots(2,int(n/2), figsize=(18,10))
@@ -60,7 +66,7 @@ def train(param_size, pipeline, df, hft, mdist, iterations=2000, batch_size=10):
     optimizer = ng.optimizers.NGOpt(parametrization=param_size, budget=iterations, num_workers=5)
     prev_time = None
     start = time.time()
-    ofunc = ObjectiveFunction(pipeline, batch_size, w0, df, hft, mdist)
+    ofunc = SampleObjectiveFunction(pipeline, batch_size, w0, df, hft, mdist, compute_distances)
     for i in range(optimizer.budget):
         x = optimizer.ask()
         loss = ofunc.evaluate(*x.args, **x.kwargs)
