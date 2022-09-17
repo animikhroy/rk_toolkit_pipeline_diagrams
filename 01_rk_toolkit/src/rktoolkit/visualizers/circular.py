@@ -2,7 +2,8 @@ from .visualizer import RKModelVisualizer, RKDiagram
 import matplotlib.pyplot as plt
 import numpy as np
 from typing import List
-from ..models.graph import Node, RKModel, GraphMask
+from ..models.graph import Node, GraphMask
+from ..models.rkmodel import RKModel
 import copy
 import logging
 

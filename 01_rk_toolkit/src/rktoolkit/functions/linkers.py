@@ -5,6 +5,48 @@ import numpy as np
 import itertools
 from typing import Optional
 
+class SimpleChildLinker():
+    '''
+    Simple child linker.
+    Takes leafs and links them together based upon
+    criteria
+    '''
+
+    def __init__(self, theta=1):
+        self.theta = theta
+
+    def get_knobs(self):
+        return {"theta": self.theta}
+
+    def set_knob(self, knb, v):
+        if knb == "theta":
+            self.theta = v
+        else:
+            raise ValueError("No knob {}".format(knb))
+
+    def check_valid_node(self, node) -> bool:
+        if "value" not in node:
+            return False
+        if not isinstance(node["value"], numbers.Number):
+            return False
+        return True
+
+    def link(self, G):
+        gC = copy.deepcopy(G)
+        for n in G.nodes:
+            for p in itertools.combinations(G.get_children(n), 2):
+                if len(p) < 2:
+                    continue
+                if not self.check_valid_node(G.nodes[p[0]]) or not self.check_valid_node(G.nodes[p[1]]):
+                    continue
+                u_v, v_v = G.nodes[p[0]]["value"], G.nodes[p[1]]["value"]
+                d = np.linalg.norm(u_v - v_v)
+                if d < self.theta:
+                    fn = 0 if u_v < v_v else 1
+                    tn = 1 ^ fn
+                    gC.add_edge(Edge(u=p[fn], v=p[tn], attributes={"edge_distance": d}))
+        return gC
+
 class SimpleLinkageFunction(LinkageFunction):
     '''
     A greedy linkage function

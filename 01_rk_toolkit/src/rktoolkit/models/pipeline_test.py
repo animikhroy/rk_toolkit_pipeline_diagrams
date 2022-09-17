@@ -1,13 +1,19 @@
 from .graph import *
 from .pipeline import RKPipeline
-from ..functions.localization_functions import IterableLocalizationFunction
-from ..functions.linkage_functions import SimpleLinkageFunction
-from ..functions.filters import StaticFilter
+from ..functions.localizers import IterableLocalizationFunction
+from ..functions.linkers import SimpleLinkageFunction
+from ..functions.filters import RangeFilter
 
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
+'''
+TODO: update tests to work with new core
+'''
 def test_rk_pipeline():
+
+    # TODO: Is this relevant now?
+    # Check the implementations and see.
 
     root = TreeNode(parent=None, id="root", name="test")
     hgraph = HierarchicalTransformGraph(root=root)
@@ -21,12 +27,12 @@ def test_rk_pipeline():
 
     [hgraph.add_node(n) for n in [measures, m1, m2, m3]]
     pipeline = RKPipeline(
-        preprocess_nodes = [TreeTransformNode()],
+      #  preprocess_nodes = [TreeTransformNode()],
         localization_algorithm = IterableLocalizationFunction(),
         linkage_function = SimpleLinkageFunction(threshold=-1),
         filter_functions = {
-            'm1': StaticFilter(max=3), #passes
-            'm2': StaticFilter(min=0, max=1) #fails
+            'm1': RangeFilter(max=3), #passes
+            'm2': RangeFilter(min=0, max=1) #fails
         },
         hfe=hgraph
     )

@@ -1,10 +1,18 @@
 import numpy as np
-from .localization_functions import NDMaxLocalizationFunction
-from .linkage_functions import  SimpleLinkageFunction
+from .localizers import NDMaxLocalizationFunction
+from .linkers import  SimpleLinkageFunction
 from ..models.graph import TreeNode, HierarchicalGraph
 
+'''
+
+TODO: Clean tests
+Some tests are old.
+Some tests are not relevant anymore
+Add tests to other functions
+'''
 def test_NDLocalizationFunction():
     '''
+    TODO: remove this. not required
     '''
     ll = NDMaxLocalizationFunction()
     x = np.linspace(0,100,100)
@@ -17,6 +25,9 @@ def test_NDLocalizationFunction():
     assert z.max() == z[x1, y2]
 
 def test_simple_linkage_function():
+    '''
+    TODO: Update linkage function test
+    '''
     sl = SimpleLinkageFunction(threshold=4)
     measures = TreeNode(parent=None, id='measures')
     hgraph = HierarchicalGraph(root=measures)

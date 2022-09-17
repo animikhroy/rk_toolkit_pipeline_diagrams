@@ -1,4 +1,4 @@
-from ..models.graph import RKModel
+from ..models.rkmodel import RKModel
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
 
