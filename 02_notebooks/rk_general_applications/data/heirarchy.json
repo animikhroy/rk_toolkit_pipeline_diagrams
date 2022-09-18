@@ -1,0 +1,37 @@
+{
+    "Location Cluster": {
+        "Country": {
+            "Region": {
+                "State": {
+                    "City": {
+	                 "Postal Code": {}
+		    }
+                }
+            }
+        }
+    },
+    "Identity Cluster": {
+	"Customer ID": {},
+        "Segment": {}
+    },
+    "Order Cluster": {
+        "Order ID": {},
+        "Ship Mode": {},
+	"Order Date": {},
+        "Returns": {},
+	"Ship Date": {}
+    },
+    "Product Cluster": {
+        "Category": {
+            "SubCategory": {
+                "Product ID": {},
+                "Product Name": {}
+            }
+        }
+    },
+    "Sales Cluster": {
+        "Sales": {},
+        "Quantity": {},
+        "Discount": {}
+    }
+}
