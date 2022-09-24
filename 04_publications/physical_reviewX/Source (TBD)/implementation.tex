@@ -1,0 +1,49 @@
+\section{Implementation and Pipeline}
+
+\subsection{Preface}
+In this section, we describe an implementation of the RK Toolkit, which has been developed for general N dimensional data-case. The implementation can be found on github at https://github.com/andorsk/rk\_toolkit. This implementation extends the core geometric and topological concepts derived in Section 2, by converting the mathematics into a statistical representation that can be used on real data. We assume that inputs into the pipeline adhere to the data criteria outlined in Section 3.2.
+
+\subsection{RK Toolkit}
+The RK Toolkit is an implementation of a framework that can be used to extend concepts proposed in this paper on actual data. For new use cases, the RK Toolkit is imported into the project. It is then up to the implementer to determine the pipeline construction and specific methods applied in the pipeline. RK Toolkit provides some standard functions to be used by an implementer, but it is ultimately up to the person implementing to decide how to leverage the framework. This is very similar to how Scikit operates, where it provides the foundational building blocks for pipeline’s, but it is up to the implementer to actually build the pipeline and choose which algorithms are appropriate for the use case.
+
+\subsection{RK Pipeline}
+Pipeline is a DAG implementation w/ a few components that are required.
+Extensible in many ways.
+
+\subsection{Data Criterian}
+Let us describe D as the input dataset to the RL Toolkit. Let us describe M as a measure within the dataset. For example, on the Iris dataset, a measure is the sepal width. For data to be accepted into the RK Model Framework, it must adhere to the following constraints:
+
+It must be able to derive a hierarchy of relationships between measures such that the hierarchy graph H describes how one measure relates to another.
+It must have at least 3 mutual independent variables ( IV ):
+
+Ex. Physical Systems:
+
+The Datasets pertaining to “Physical Systems” must contain at least 3 Mutually Independent Variables related to the 7 Fundamental Dimensions of Physics to meet the the minimum criteria of  generating an  R-K Diagram in accordance with consistent Topological Properties that can be distinguished using distinct Divergence criteria.
+
+Non Physical Systems With Known Relationships:
+The Datasets pertaining to “Physical Systems” must contain at least 3 Mutually Independent Variables related to the 7 Fundamental Dimensions of Physics to meet the the minimum criteria of  generating an  R-K Diagram in accordance with consistent Topological Properties that can be distinguished using distinct Divergence criteria.
+
+Derived Relationships
+Derived relationships are relationships that are determined by the data itself, and are learned during analysis. For example, in an NXDx3 RGB image, the derived relationships might be related to the cardinality of the sum of pixels between columns.
+
+\subsection{Assumptions}
+A directed relationship exists between M such the formulat E(M1, M2) would be capable of describing a directed relationship between M1 and M2.
+For the approach to be effective, there exists a filter function f : X → R, that combined with a linkage function L : X → R, can segregate topological structures.
+A Distance Function can be described that provides a distance between two measures.
+
+\subsection{Limitations}
+Such as described by the Section 3.2 in Data Criteria, this imposes the following limitations on data fed into the pipeline:
+
+Low dimensional data, with less than 3 independent dimensions will not be compliant with the data criteria and are not suitable for this approach.
+Data with unclear relationships between measures may be less effective than data with clear relationships between measures.
+
+\subsection{HFT}
+Hierarchy: Definition of a hierarchy
+Transform <-  describe a transform.
+
+\subsection{RK Model}
+\subsection{Filters}
+\subsection{Linkage}
+\subsection{RK Transformers}
+\subsection{RK Diagram}
+\subsection{RK Extensibility and Flexibility}
