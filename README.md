@@ -2,8 +2,7 @@
 
 ### 01_rk_toolkit
 
-A generalized implementation of the  [A novel approach ot TDA: RK Diagrams
-Paper]() written by Andor Kesselman  and Animikh Roy. It's essentially a utility
+A generalized implementation of the  [A Novel Approach to Topological Graph Theory with R-K Diagrams and Gravitational Wave Analysis](https://arxiv.org/abs/2201.06923) written by Andor Kesselman  and Animikh Roy. It's essentially a utility
 package ( like sklearn ) specifically meant to support transfroms and objects in
 the RKPipeline.
 
