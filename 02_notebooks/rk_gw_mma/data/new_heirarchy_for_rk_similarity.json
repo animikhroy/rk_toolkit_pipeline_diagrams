@@ -1,0 +1,53 @@
+{
+  "Mass Cluster": {
+    "Mass_1_source (solar masses)": {
+      "mass_1_source_upper_error": {},
+      "Mass_1_Upper Limit (solar masses)": {},
+      "mass_1_source_lower_error": {},
+      "Mass_1_Lower Limit (solar masses)": {}
+    },
+    "Mass_2_source (solar masses)": {
+      "mass_2_source_upper_error": {},
+      "Mass_2_Upper Limit (solar masses)": {},
+      "mass_2_source_lower_error": {},
+      "Mass_2_Lower Limit (solar masses)": {}
+    },
+    "final_mass_source": {
+      "final_mass_source_lower": {},
+      "final_mass_source_upper": {}
+    },
+    "total_mass_source": {
+      "total_mass_source_lower": {},
+      "total_mass_source_upper": {}
+    },
+    "chirp_mass_source": {
+      "chirp_mass_source_lower": {},
+      "chirp_mass_source_upper": {}
+    },
+    "chirp_mass": {
+      "chirp_mass_lower": {},
+      "chirp_mass_upper": {}
+    }
+  },
+   "Q-Value Cluster": {
+     "Q-value (Ratio of Masses)": {
+      "Q-Value_Upper Limit": {},
+      "Q-value_lower limit": {}
+     }
+    },
+  "Redshift Cluster": {
+      "redshift_lower_error": {},
+      "redshift_lower_limit": {},
+      "redshift_upper": {},
+      "redshift_upper_limit": {}
+  },
+
+  "Spin Cluster": {
+    "chi_eff (Spin)": {
+      "chi_eff_lower_error": {},
+      "chi_eff_lower spin_limit": {},
+      "chi_eff_upper_error": {},
+      "chi_eff_upper spin_limit": {}
+    }
+  }
+}
