@@ -1,0 +1,217 @@
+Event name ,Name of Cluster,Nodes in Cluster,Value of Each Node, Length of Edge ,Direction of Edge
+GW170817,Mass Cluster ,Mass 1 (Ma1),1.58,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Mass 1 (Ma2) ,1.46,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Mass 1 (Ma3) ,1.36,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Mass 2 (Mb1),1.36,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Mass 2 (Mb2),1.27,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Mass 2 (Mb3),1.18,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Total Mass (TM1,2.87,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Total Mass (TM2),2.65,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Total Mass (TM3),2.36,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Chirp Mass (CM1),1.188,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Chirp Mass (CM2),1.186,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Chirp Mass (CM3),1.183,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Final Mass (FM1),2.8,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Final Mass (FM2),2.65,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Mass Cluster ,Final Mass (FM3),2.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Spin Cluster ,Inspiral (IS1),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Spin Cluster ,Inspiral (IS2),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Spin Cluster ,Inspiral (IS3),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Spin Cluster ,Final Spin (FS1),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Spin Cluster ,Final Spin (FS2),0.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Spin Cluster ,Final Spin (FS3),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Q-Value (Ratio of 2 Masses),Q-Value (Q1),0.41,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Q-Value (Ratio of 2 Masses),Q-Value (Q2),0.49,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Q-Value (Ratio of 2 Masses),Q-Value (Q3),0.57,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Redshift Cluster,Source Redshift (SR1),0.1,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Redshift Cluster,Source Redshift (SR1),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170817,Redshift Cluster,Source Redshift (SR1),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Mass 1 (Ma1),66.4,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Mass 1 (Ma2) ,50.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Mass 1 (Ma3) ,45.3,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Mass 2 (Mb1),44.1,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Mass 2 (Mb2),34.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Mass 2 (Mb3),27.9,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Total Mass (TM1),101.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Total Mass (TM2),84.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Total Mass (TM3),72.3,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Chirp Mass (CM1),41.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Chirp Mass (CM2),35.4,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Chirp Mass (CM3),28.6,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Final Mass (FM1),93.7,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Final Mass (FM2),79.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Mass Cluster ,Final Mass (FM3),66.8,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Spin Cluster ,Inspiral (IS1),0.64,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Spin Cluster ,Inspiral (IS2),0.37,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Spin Cluster ,Inspiral (IS3),0.18,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Spin Cluster ,Final Spin (FS1),0.94,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Spin Cluster ,Final Spin (FS2),0.81,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Spin Cluster ,Final Spin (FS3),0.67,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Q-Value (Ratio of 2 Masses),Q-Value (Q1),1.02,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Q-Value (Ratio of 2 Masses),Q-Value (Q2),1.69,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Q-Value (Ratio of 2 Masses),Q-Value (Q3),2.37,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Redshift Cluster,Source Redshift (SR1),0.68,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Redshift Cluster,Source Redshift (SR1),0.49,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW170729,Redshift Cluster,Source Redshift (SR1),0.25,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Mass 1 (Ma1),24.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Mass 1 (Ma2) ,23.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Mass 1 (Ma3) ,22.6,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Mass 2 (Mb1),2.7,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Mass 2 (Mb2),2.6,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Mass 2 (Mb3),2.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Total Mass (TM1,26.9,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Total Mass (TM2),25.8,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Total Mass (TM3),24.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Chirp Mass (CM1),6.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Chirp Mass (CM2),6.4,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Chirp Mass (CM3),6.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Final Mass (FM1),26.7,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Final Mass (FM2),25.6,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Mass Cluster ,Final Mass (FM3),24.3,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Spin Cluster ,Inspiral (IS1),0.6,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Spin Cluster ,Inspiral (IS2),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Spin Cluster ,Inspiral (IS3),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Spin Cluster ,Final Spin (FS1),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Spin Cluster ,Final Spin (FS2),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Spin Cluster ,Final Spin (FS3),0,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Q-Value (Ratio of 2 Masses),Q-Value (Q1),0.1,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Q-Value (Ratio of 2 Masses),Q-Value (Q2),0.11,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Q-Value (Ratio of 2 Masses),Q-Value (Q3),0.12,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Redshift Cluster,Source Redshift (SR1),0.06,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Redshift Cluster,Source Redshift (SR1),0.05,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190814,Redshift Cluster,Source Redshift (SR1),0.04,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Mass 1 (Ma1),121.8,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Mass 1 (Ma2) ,91.4,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Mass 1 (Ma3) ,77.4,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Mass 2 (Mb1),88.9,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Mass 2 (Mb2),66.8,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Mass 2 (Mb3),44.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Total Mass (TM1,191.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Total Mass (TM2),157.9,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Total Mass (TM3),137.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Chirp Mass (CM1),130.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Chirp Mass (CM2),116.3,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Chirp Mass (CM3),108.4,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Final Mass (FM1),185.8,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Final Mass (FM2),150.3,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Mass Cluster ,Final Mass (FM3),130.2,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Spin Cluster ,Inspiral (IS1),0.9,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Spin Cluster ,Inspiral (IS2),0.6,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Spin Cluster ,Inspiral (IS3),0.3,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Spin Cluster ,Final Spin (FS1),0.7,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Spin Cluster ,Final Spin (FS2),0.5,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Spin Cluster ,Final Spin (FS3),0.4,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Q-Value (Ratio of 2 Masses),Q-Value (Q1),1.14,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Q-Value (Ratio of 2 Masses),Q-Value (Q2),1.94,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Q-Value (Ratio of 2 Masses),Q-Value (Q3),2.75,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Redshift Cluster,Source Redshift (SR1),0.99,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Redshift Cluster,Source Redshift (SR1),0.72,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
+GW190521,Redshift Cluster,Source Redshift (SR1),0.69,"Determine by proximity 
+/Randomly for now",Towards Highest value of the cluster
