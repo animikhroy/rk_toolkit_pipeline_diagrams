@@ -1,0 +1,11 @@
+h5py
+matplotlib
+scipy
+matplotlib
+numpy
+gwosc
+requests
+gwosc
+scipy 
+gwpy
+
