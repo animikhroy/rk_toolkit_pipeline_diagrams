@@ -33,8 +33,7 @@ Once the server is up, you can go to the URL ( often for you http://localhost:80
 
 ## Status
 
-Currently things are being migrated over, and so may not work as intended until
-the migration is cleaned. You can use the ml.kesselmanrao.com for a working version
+Currently in alpha. On Release: `0.1`
 
 ### Known Issues
 
