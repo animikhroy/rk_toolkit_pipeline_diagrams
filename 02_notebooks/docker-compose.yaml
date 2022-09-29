@@ -1,12 +1,12 @@
 version: '3.2'
 
 services:
-  ml-workspace:
-    image: andorsk/rk_workspace:0.0.1
+  rk-workspace:
+    image: and0rsk/rk_workspace:0.0.1
     volumes:
       - ${PWD}:/workspace
     ports:
-      - 8080:8080
+      - 8999:8080
 
 volumes:
-  ml-workspace:
+  rk-workspace:
