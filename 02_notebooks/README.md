@@ -16,7 +16,9 @@ jupyter-notebook .
 
 ## Running with Docker
 
-You can run with docker via the following commands:
+You can find installation instructions for installing docker [here](https://docs.docker.com/desktop/)
+
+Once docker is installed, you can run with docker via the following commands:
 
 ```
 docker run -p 8080:8080 -v -v "${PWD}:/workspace" --env AUTHENTICATE_VIA_JUPYTER="mytoken" --shm-size 512m andorsk/rk_toolkit:0.0.1
