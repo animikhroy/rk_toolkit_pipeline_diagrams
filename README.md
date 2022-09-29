@@ -1,5 +1,11 @@
 # Table of Contents
 
+To use:
+
+```
+git clone git@github.com:andorsk/rk_toolkit.git
+git submodule update --init --recursive
+```
 ### 01_rk_toolkit
 
 A generalized implementation of the  [A Novel Approach to Topological Graph Theory with R-K Diagrams and Gravitational Wave Analysis](https://arxiv.org/abs/2201.06923) written by Andor Kesselman  and Animikh Roy. It's essentially a utility
