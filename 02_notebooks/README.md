@@ -14,6 +14,19 @@ python -m pip install -r requirements.txt
 jupyter-notebook .
 ```
 
+## Running with Docker
+
+You can run with docker via the following commands:
+
+```
+docker run -p 8080:8080 -v -v "${PWD}:/workspace" --env AUTHENTICATE_VIA_JUPYTER="mytoken" --shm-size 512m andorsk/rk_toolkit:0.0.1
+```
+or docker-compose
+
+```
+docker-compose up -d 
+```
+
 ## Status
 
 Currently things are being migrated over, and so may not work as intended until
