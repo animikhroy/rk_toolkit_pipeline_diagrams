@@ -31,6 +31,8 @@ docker-compose up -d
 
 Once the server is up, you can go to the URL ( often for you http://localhost:8080 ) to view the notebooks in your browser.
 
+More information about the docker build process is [here](https://github.com/andorsk/rk_toolkit/blob/master/01_rk_workbench)
+
 ## Status
 
 Currently in alpha. On Release: `0.1`
