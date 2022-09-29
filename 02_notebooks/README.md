@@ -29,6 +29,8 @@ or docker-compose
 docker-compose up -d 
 ```
 
+Once the server is up, you can go to the URL ( often for you http://localhost:8080 ) to view the notebooks in your browser.
+
 ## Status
 
 Currently things are being migrated over, and so may not work as intended until
