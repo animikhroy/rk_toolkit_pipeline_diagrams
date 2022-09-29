@@ -2,11 +2,11 @@ version: '3.2'
 
 services:
   rk-workspace:
-    image: and0rsk/rk_workspace:0.0.1
+    image: and0rsk/rk_workspace:latest
     volumes:
       - ${PWD}:/workspace
     ports:
-      - 8999:8080
+      - 8080:8080
 
 volumes:
   rk-workspace:
