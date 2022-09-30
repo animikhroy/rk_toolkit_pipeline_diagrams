@@ -21,7 +21,7 @@ You can find installation instructions for installing docker [here](https://docs
 Once docker is installed, you can run with docker via the following commands:
 
 ```
-docker run -p 8080:8080 -v -v "${PWD}:/workspace" --env AUTHENTICATE_VIA_JUPYTER="mytoken" --shm-size 512m andorsk/rk_toolkit:0.0.1
+docker run -p 8080:8080 -v -v "${PWD}:/workspace" --env AUTHENTICATE_VIA_JUPYTER="mytoken" --shm-size 512m andorsk/rk_toolkit:latest
 ```
 or docker-compose
 
@@ -29,10 +29,13 @@ or docker-compose
 docker-compose up -d 
 ```
 
+Once the server is up, you can go to the URL ( often for you http://localhost:8080 ) to view the notebooks in your browser.
+
+More information about the docker build process is [here](https://github.com/andorsk/rk_toolkit/blob/master/01_rk_workbench)
+
 ## Status
 
-Currently things are being migrated over, and so may not work as intended until
-the migration is cleaned. You can use the ml.kesselmanrao.com for a working version
+Currently in alpha. On Release: `0.1`
 
 ### Known Issues
 

@@ -6,7 +6,7 @@ services:
     volumes:
       - ${PWD}:/workspace
     ports:
-      - 8999:8080
+      - 8080:8080
 
 volumes:
   rk-workspace:
