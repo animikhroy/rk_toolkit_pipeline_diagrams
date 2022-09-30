@@ -1,0 +1,4 @@
+H-H1_GWOSC_4KHZ_R1-1185387760-4096.hdf5 filter=lfs diff=lfs merge=lfs -text
+H-H1_GWOSC_4KHZ_R1-1187006835-4096.hdf5 filter=lfs diff=lfs merge=lfs -text
+H-H1_GWOSC_4KHZ_R1-1242440920-4096.hdf5 filter=lfs diff=lfs merge=lfs -text
+H-H1_GWOSC_4KHZ_R1-1249850209-4096.hdf5 filter=lfs diff=lfs merge=lfs -text
