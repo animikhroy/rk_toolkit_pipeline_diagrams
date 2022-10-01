@@ -8,9 +8,11 @@ git submodule update --init --recursive
 ```
 ### 01_rk_toolkit
 
-A generalized implementation of the  [A Novel Approach to Topological Graph Theory with R-K Diagrams and Gravitational Wave Analysis](https://arxiv.org/abs/2201.06923) written by Andor Kesselman  and Animikh Roy. It's essentially a utility
-package ( like sklearn ) specifically meant to support transfroms and objects in
-the RKPipeline.
+A generalized implementation of the  [A Novel Approach to Topological Graph Theory with R-K Diagrams and Gravitational Wave Analysis](https://arxiv.org/abs/2201.06923) written by Animikh Roy and Andor Kesselman. The “R-K Toolkit” is a generalized code package implemented to aid users in the process of building “R-K Diagrams” and “R-K Models” via the “R-K Pipeline”. It provides a computational framework to build a functional component called the R-K Pipeline, which can be used to transform any NxM Tensor with 3 or more independent physical/ontological variables, into a R-K Model. An “R-K Model ‘’ is then processed with domain appropriate “Range-Filters” and “Leaf-Linkers” to render unique topological signatures and graph visualizations that are known as R-K Diagrams.It's essentially serves as a utility package ( like scikit-learn ) specifically built to support computational transfroms and objects in
+the R-K Pipeline. A set of sample R-K Diagrams rendered via appropriate R-K models using the toolkit and the R-K Pipeline has been demonstrated below for reference puroses:
+
+![R-K Model](https://user-images.githubusercontent.com/55942592/193401780-87de09e8-d182-4bf9-8604-c1a5938738df.gif)
+
 
 ### 02_notebooks
 
