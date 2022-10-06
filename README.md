@@ -54,15 +54,25 @@ Publication documents for arxiv and peer review.
 │   └── rkmodel
 └── 04_publications
     ├── arxiv
-    │   └── A\ Novel\ Approach\ to\ Topological\ Graph\ Theory\ with\ R-K\ Topohedrons
+    │   └── A\ Novel\ Approach\ to\ Topological\ Graph\ Theory\ with\ R-K\ Diagrams\ &\ GW\ Analysis
     │       ├── bib
     │       ├── images
     │       ├── notes
     │       ├── scripts
-    │       └── sections
-    ├── physical_reviewD
-    │   └── images
+    │       ├── logs
+    |       └── sections
+    |
     └── physical_reviewX
-        └── images
+        └── A\ Novel\ Approach\ to\ Topological\ Graph\ Theory\ with\ R-K\ Diagrams\ &\ GW\ Analysis
+            ├── bib
+            ├── images
+            ├── sections
+            ├── scripts
+            └── logs
+        
+        
 
 ```
+## Contributions and Licensing
+
+[Creative Commons Licensing](https://creativecommons.org/licenses/by-nc/4.0/)
