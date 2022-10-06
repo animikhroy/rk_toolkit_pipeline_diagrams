@@ -54,7 +54,7 @@ Publication documents for arxiv and peer review.
 │   └── rkmodel
 └── 04_publications
     ├── arxiv
-    │   └── A\ Novel\ Approach\ to\ Topological\ Graph\ Theory\ with\ R-K\ Diagrams\ &\ GW\ Analysis
+    │   └── A\ Novel\ Approach\ to\ Topological\ Graph\ Theory\ with\ R-K\ Diagrams\ and\ GW\ Analysis
     │       ├── bib
     │       ├── images
     │       ├── notes
@@ -63,7 +63,7 @@ Publication documents for arxiv and peer review.
     |       └── sections
     |
     └── physical_reviewX
-        └── A\ Novel\ Approach\ to\ Topological\ Graph\ Theory\ with\ R-K\ Diagrams\ &\ GW\ Analysis
+        └── A\ Novel\ Approach\ to\ Topological\ Graph\ Theory\ with\ R-K\ Diagrams\ and\ GW\ Analysis
             ├── bib
             ├── images
             ├── sections
