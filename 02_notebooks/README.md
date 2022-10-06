@@ -56,3 +56,7 @@ import os
 os.system("Xvfb :1 -screen 0 720x720x16 &")
 os.environ['DISPLAY'] = ":1.0"
 ```
+
+## Contributions and Licensing
+
+[Creative Commons Licensing](https://creativecommons.org/licenses/by-nc/4.0/)
