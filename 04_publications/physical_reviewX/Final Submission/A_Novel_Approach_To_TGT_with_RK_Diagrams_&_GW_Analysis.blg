@@ -16,6 +16,7 @@ Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: A_Novel_Approach_To_TGT_with_RK_Diagrams_&_GW_AnalysisNotes.bib
 Database file #2: ref.bib
+Reallocating 'field_info' (item size: 4) to 10032 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
@@ -164,45 +165,45 @@ Warning--missing journal in 04.2_eriksonClustering
 Warning--empty year in 04.2_eriksonClustering
 Warning--missing publisher in 02.2_hatcher2005algebraicTopo
 Warning--can't use both volume and number fields in 14.0_1993DistanceFunctions
-You've used 132 entries,
+You've used 136 entries,
             6079 wiz_defined-function locations,
-            2399 strings with 38663 characters,
-and the built_in function-call counts, 117083 in all, are:
-= -- 8503
-> -- 2708
-< -- 549
-+ -- 943
-- -- 636
-* -- 16777
-:= -- 11734
-add.period$ -- 132
-call.type$ -- 132
-change.case$ -- 582
-chr.to.int$ -- 127
-cite$ -- 175
-duplicate$ -- 10987
-empty$ -- 8907
-format.name$ -- 1611
-if$ -- 23673
+            2421 strings with 39278 characters,
+and the built_in function-call counts, 120810 in all, are:
+= -- 8786
+> -- 2796
+< -- 566
++ -- 973
+- -- 656
+* -- 17309
+:= -- 12101
+add.period$ -- 136
+call.type$ -- 136
+change.case$ -- 599
+chr.to.int$ -- 131
+cite$ -- 179
+duplicate$ -- 11333
+empty$ -- 9181
+format.name$ -- 1667
+if$ -- 24431
 int.to.chr$ -- 6
-int.to.str$ -- 140
-missing$ -- 1514
-newline$ -- 449
-num.names$ -- 363
-pop$ -- 4918
+int.to.str$ -- 144
+missing$ -- 1561
+newline$ -- 461
+num.names$ -- 375
+pop$ -- 5068
 preamble$ -- 2
-purify$ -- 649
+purify$ -- 669
 quote$ -- 0
-skip$ -- 4889
+skip$ -- 5044
 stack$ -- 0
-substring$ -- 2919
-swap$ -- 9576
-text.length$ -- 331
+substring$ -- 3023
+swap$ -- 9888
+text.length$ -- 342
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 1746
+type$ -- 1800
 warning$ -- 21
-while$ -- 341
+while$ -- 353
 width$ -- 0
-write$ -- 1035
+write$ -- 1065
 (There were 39 error messages)
