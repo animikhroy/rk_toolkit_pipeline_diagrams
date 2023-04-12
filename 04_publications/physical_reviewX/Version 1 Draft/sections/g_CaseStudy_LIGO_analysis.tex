@@ -393,18 +393,28 @@ After optimization, we encoded the R-K Diagram into a vector and trained an SVM 
 
 This gave us closer intra-class topological separation between BH-BH mergers which were recorded with an average similarity measure between the range of $\lbrack0.9, 0.96\rbrack$ and NS-NS Mergers between a range   $\lbrack0.59, 0.65\rbrack$. The candidate PBH measured an interclass similarity of 0.71 with w.r.t. to NS-NS mergers and 0.62 w.r.t. BH-BH mergers with distinctly different R-K Diagrams. However, a more detailed study of the unique topological signatures and R-K diagrams of Primordial Black Holes is definitely promising but beyond the scope of this paper and should be left for future research due to the lack of conclusive data and sufficient observational parameters at present.
 
-% \subsection{Localization of R-K Diagrams}
+\subsection{Localization of R-K Diagrams}
 
-% We localied the R-K Diagrams using the T--distributed Stochastic Neighbor Embedding (TSNE). T-SNE is a tool to visualize high-dimensional data by trying to minimize Kullbak-Leibler Divergence between low dimensional embeddings and the higher dimensional data. \cite{sklearn.manifold.tsne_2014}. Using the original data, we localized to a two dimensional surface each root of the R-K Diagram by using summary information of the R-K model using metric and topological evaluation methods.
+We localised the R-K Diagrams using the T--distributed Stochastic Neighbour Embedding (TSNE). T-SNE is a tool to visualize high-dimensional data by trying to minimize Kullbak-Leibler Divergence between low dimensional embeddings and the higher-dimensional data. \cite{sklearn.manifold.tsne_2014}. Using the original data, we localized to a two dimensional surface each root of the R-K Diagram by using summary information of the R-K model using metric and topological evaluation methods.
 
-% \begin{figure}[H]
-% 	\centering
-%         \includegraphics[width=0.5\textwidth]{images/TSNELocalizedRKDiagrams.png}
-% 	\caption{\textit{TSNE localized R-K Diagrams}}
-% 	\label{fig:tsne}
-% \end{figure}
+\begin{figure}[H]
+	\centering
+        \includegraphics[width=0.5\textwidth]{images/TSNELocalizedRKDiagrams.png}
+	\caption{\textit{TSNE localized R-K Diagrams}}
+	\label{fig:tsne}
+\end{figure}
 
- \subsubsection{R-K Event-Scape vs Primary Analysis}
+\subsection{Multi-modal Classification of CBCs using R-K Diagrams}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{images/TSNELocalizedRKDiagrams.png}
+	\caption{\textit{TSNE localized R-K Diagrams}}
+	\label{fig:tsne2}
+\end{figure}
+
+\subsubsection{R-K Event-Scape vs Primary Analysis}
  
  The fine-tuned results of the R-K Event-Scape provides distinct categorical R-K diagrams representing a specific class of compact binary mergers as shown in the previous section. However, it is important to note that these fine-tuned R-K diagrams can then be remapped to the Q-transformed spectral densities from Primary Analysis.  
  
