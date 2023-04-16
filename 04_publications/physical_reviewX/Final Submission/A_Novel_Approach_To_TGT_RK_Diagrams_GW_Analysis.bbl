@@ -1,0 +1,1259 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{140}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Greenberg}\ and\ \citenamefont
+  {Harper}(2018)}]{01.1_1stCourse2018algebraicTopo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Greenberg}}\ and\ \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {Harper}},\ }\href@noop {} {\emph {\bibinfo {title} {Algebraic topology: a
+  first course}}}\ (\bibinfo  {publisher} {CRC Press},\ \bibinfo {year}
+  {2018})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Singh}\ \emph {et~al.}(2007)\citenamefont {Singh},
+  \citenamefont {M{\'e}moli}, \citenamefont {Carlsson} \emph
+  {et~al.}}]{01.9_2007MapperPBG}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Singh}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {M{\'e}moli}},
+  \bibinfo {author} {\bibfnamefont {G.~E.}\ \bibnamefont {Carlsson}}, \emph
+  {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {PBG@
+  Eurographics}\ }\textbf {\bibinfo {volume} {2}} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Epstein}\ \emph {et~al.}(2011)\citenamefont
+  {Epstein}, \citenamefont {Carlsson},\ and\ \citenamefont
+  {Edelsbrunner}}]{01_GCarlssonEpstein2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Epstein}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Carlsson}},\
+  and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Edelsbrunner}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Inverse Problems}\
+  }\textbf {\bibinfo {volume} {27}},\ \bibinfo {pages} {120201} (\bibinfo
+  {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Courtney}(2019)}]{01.4_2019SimpCompMicroStat}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Courtney}},\ }\emph {\bibinfo {title} {Statistical Mechanics of Simplicial
+  Complexes}},\ \href@noop {} {Ph.D. thesis},\ \bibinfo  {school} {Queen Mary
+  University of London} (\bibinfo {year} {2019})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Seversky}\ \emph {et~al.}(2016)\citenamefont
+  {Seversky}, \citenamefont {Davis},\ and\ \citenamefont
+  {Berger}}]{01.3_2016TDANewOpportunities}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Seversky}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Davis}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Berger}},\ }in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of the IEEE
+  conference on computer vision and pattern recognition workshops}}}\ (\bibinfo
+  {year} {2016})\ pp.\ \bibinfo {pages} {59--67}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vallisneri}\ \emph {et~al.}(2015)\citenamefont
+  {Vallisneri}, \citenamefont {Kanner}, \citenamefont {Williams}, \citenamefont
+  {Weinstein},\ and\ \citenamefont {Stephens}}]{01.5_LIGOOpenSci}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Vallisneri}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Kanner}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Williams}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Weinstein}},\ and\ \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Stephens}},\ }in\ \href@noop {}
+  {\emph {\bibinfo {booktitle} {Journal of Physics: Conference Series}}},\
+  Vol.\ \bibinfo {volume} {610}\ (\bibinfo {organization} {IOP Publishing},\
+  \bibinfo {year} {2015})\ p.\ \bibinfo {pages} {012021}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Collaboration}(2021)}]{00_LIGOOpenSciData}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~L. O.~S.}\
+  \bibnamefont {Collaboration}},\ }\href@noop {} {\bibinfo {title} {Ligo data
+  release catalogue}},\ \bibinfo {howpublished} {Available at
+  \url{https://www.gw-openscience.org/eventapi/html/}} (\bibinfo {year}
+  {2015-2021})\BibitemShut {NoStop}%
+\bibitem [{tab(2021)}]{tableau_community_forums_2021}%
+  \BibitemOpen
+  \href
+  {https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls}
+  {} (\bibinfo {year} {2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gross}\ and\ \citenamefont
+  {Tucker}(2001)}]{17.0_2001TGTIntro}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont
+  {Gross}}\ and\ \bibinfo {author} {\bibfnamefont {T.~W.}\ \bibnamefont
+  {Tucker}},\ }\href@noop {} {\emph {\bibinfo {title} {Topological graph
+  theory}}}\ (\bibinfo  {publisher} {Courier Corporation},\ \bibinfo {year}
+  {2001})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bonnington}\ and\ \citenamefont
+  {Little}(2012)}]{17.1_2012foundationsTGT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~P.}\ \bibnamefont
+  {Bonnington}}\ and\ \bibinfo {author} {\bibfnamefont {C.~H.}\ \bibnamefont
+  {Little}},\ }\href@noop {} {\emph {\bibinfo {title} {The foundations of
+  topological graph theory}}}\ (\bibinfo  {publisher} {Springer Science \&
+  Business Media},\ \bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {West}\ \emph {et~al.}(2001)\citenamefont {West} \emph
+  {et~al.}}]{01.6_GTIntro}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont
+  {West}} \emph {et~al.},\ }\href@noop {} {\emph {\bibinfo {title}
+  {Introduction to graph theory}}},\ Vol.~\bibinfo {volume} {2}\ (\bibinfo
+  {publisher} {Prentice hall Upper Saddle River},\ \bibinfo {year}
+  {2001})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Archdeacon}(1996)}]{17.3_1996topologicalGT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Archdeacon}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {A
+  survey. Congressus Numerantium}\ }\textbf {\bibinfo {volume} {115}},\
+  \bibinfo {pages} {18} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kainen}(1974)}]{17.4_TGTRecentResults}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~C.}\ \bibnamefont
+  {Kainen}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Graphs and
+  combinatorics}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year}
+  {1974})\ pp.\ \bibinfo {pages} {76--108}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bollob{\'a}s}(2013)}]{01.8_ModernGT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Bollob{\'a}s}},\ }\href@noop {} {\emph {\bibinfo {title} {Modern graph
+  theory}}},\ Vol.\ \bibinfo {volume} {184}\ (\bibinfo  {publisher} {Springer
+  Science \& Business Media},\ \bibinfo {year} {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont
+  {Hartigan}(1975{\natexlab{a}})}]{04.0_1975clusteringbook}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Hartigan}},\ }\href@noop {} {\emph {\bibinfo {title} {Clustering
+  algorithms}}}\ (\bibinfo  {publisher} {John Wiley \& Sons, Inc.},\ \bibinfo
+  {year} {1975})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carlsson}\ and\ \citenamefont
+  {M{\'e}moli}(2008)}]{06.1_carlsson2008persistentHomo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Carlsson}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {M{\'e}moli}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {arXiv preprint arXiv:0808.2241}\ } (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Fiore}\ and\ \citenamefont
+  {Campos}(2013)}]{20.0_2013AlgebraOfDAGs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Fiore}}\ and\ \bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
+  {Campos}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Computation,
+  Logic, Games, and Quantum Foundations. The Many Facets of Samson Abramsky}}}\
+  (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {2013})\ pp.\ \bibinfo
+  {pages} {37--51}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Healy}\ and\ \citenamefont
+  {Nikolov}(2001)}]{20.1_2001DAGMechanics}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Healy}}\ and\ \bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont
+  {Nikolov}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {International
+  Symposium on Graph Drawing}}}\ (\bibinfo {organization} {Springer},\ \bibinfo
+  {year} {2001})\ pp.\ \bibinfo {pages} {16--30}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bondy}\ \emph {et~al.}(1976)\citenamefont {Bondy},
+  \citenamefont {Murty} \emph {et~al.}}]{01.7_GTApplications}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Bondy}}, \bibinfo {author} {\bibfnamefont {U.~S.~R.}\ \bibnamefont {Murty}},
+  \emph {et~al.},\ }\href@noop {} {\emph {\bibinfo {title} {Graph theory with
+  applications}}},\ Vol.\ \bibinfo {volume} {290}\ (\bibinfo  {publisher}
+  {Macmillan London},\ \bibinfo {year} {1976})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tierny}(2017)}]{02.3_2017introductionTDA}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Tierny}},\ }\href@noop {} {\  (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{02.()}]{02.4_TDAResearch}%
+  \BibitemOpen
+  \href {https://eecs.ceas.uc.edu/~wilseypa/research/tda/} {\bibinfo {title}
+  {Topological data analysis (tda)}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Manoff}(2001)}]{23.2_AffineConnection}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Manoff}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Classical and Quantum Gravity}\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo
+  {pages} {1111} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {of~Units}(2021)}]{23.1_7FundamentalQuants}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~I.~S.}\
+  \bibnamefont {of~Units}},\ }\href@noop {} {\bibinfo {title} {List of physical
+  quantities}},\ \bibinfo {howpublished} {Available at
+  \url{https://en.wikipedia.org/wiki/List_of_physical_quantities}} (\bibinfo
+  {year} {1960-2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mahoney}\ \emph {et~al.}(2009)\citenamefont
+  {Mahoney}, \citenamefont {Lim},\ and\ \citenamefont
+  {Carlsson}}]{02.6_2009TDAChallenges}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~W.}\ \bibnamefont
+  {Mahoney}}, \bibinfo {author} {\bibfnamefont {L.-H.}\ \bibnamefont {Lim}},\
+  and\ \bibinfo {author} {\bibfnamefont {G.~E.}\ \bibnamefont {Carlsson}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {SIAM News}\
+  }\textbf {\bibinfo {volume} {42}} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Goerss}\ and\ \citenamefont
+  {Jardine}(2009)}]{03.1_2009simplicialHomotopy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~G.}\ \bibnamefont
+  {Goerss}}\ and\ \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont
+  {Jardine}},\ }\href@noop {} {\emph {\bibinfo {title} {Simplicial homotopy
+  theory}}}\ (\bibinfo  {publisher} {Springer Science \& Business Media},\
+  \bibinfo {year} {2009})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carlsson}(2009)}]{02_carlsson2009topology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Carlsson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Bulletin of the American Mathematical Society}\ }\textbf {\bibinfo {volume}
+  {46}},\ \bibinfo {pages} {255} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {De~Silva}\ and\ \citenamefont
+  {Ghrist}(2007)}]{03.3_de2007PersistentHomology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {De~Silva}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Ghrist}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Algebraic \& Geometric Topology}\ }\textbf {\bibinfo {volume} {7}},\
+  \bibinfo {pages} {339} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Offroy}\ and\ \citenamefont
+  {Duponchel}(2016)}]{18.0_2016topologicalBigChem}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Offroy}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Duponchel}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Analytica chimica acta}\ }\textbf {\bibinfo {volume} {910}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wasserman}(2018)}]{18.2_2018TDAonBigData}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Wasserman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Annual Review of Statistics and Its Application}\ }\textbf {\bibinfo
+  {volume} {5}},\ \bibinfo {pages} {501} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Nolte}(2010)}]{19.0_2010PhaseSpace}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont
+  {Nolte}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics
+  today}\ }\textbf {\bibinfo {volume} {63}},\ \bibinfo {pages} {33} (\bibinfo
+  {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bj{\"o}rner}(2003)}]{07_bjorner2003Homotopy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Bj{\"o}rner}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Combinatorial Theory, Series A}\ }\textbf {\bibinfo {volume}
+  {102}},\ \bibinfo {pages} {88} (\bibinfo {year} {2003})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Forrest}\ \emph {et~al.}(2002)\citenamefont
+  {Forrest}, \citenamefont {Hunton},\ and\ \citenamefont
+  {Kellendonk}}]{12.1_2002topologicalInvariaceProjection}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Forrest}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Hunton}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Kellendonk}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Topological invariants for
+  projection method patterns}}}\ (\bibinfo  {publisher} {American Mathematical
+  Soc.},\ \bibinfo {year} {2002})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont
+  {Lee}(2010)}]{01.0_2010introductionTopoPropertiesInvariance}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Lee}},\ }\href@noop {} {\emph {\bibinfo {title} {Introduction to topological
+  manifolds}}},\ Vol.\ \bibinfo {volume} {202}\ (\bibinfo  {publisher}
+  {Springer Science \& Business Media},\ \bibinfo {year} {2010})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Spandl}(2007)}]{05.1_2007computingTopoEntropy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Spandl}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Mathematical Logic Quarterly}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo
+  {pages} {493} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jaranowski}\ and\ \citenamefont
+  {Kr{\'o}lak}(2012)}]{00.1_2012GWAnalysisFormalism}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Jaranowski}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kr{\'o}lak}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Living Reviews in Relativity}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schutz}(2012)}]{00.2_schutz2012GWDataAnalysis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~F.}\ \bibnamefont
+  {Schutz}},\ }\href@noop {} {\emph {\bibinfo {title} {Gravitational wave data
+  analysis}}},\ Vol.\ \bibinfo {volume} {253}\ (\bibinfo  {publisher} {Springer
+  Science \& Business Media},\ \bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zomorodian}\ and\ \citenamefont
+  {Carlsson}(2005)}]{06.4_2005computingPHomology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zomorodian}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Carlsson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Discrete \& Computational Geometry}\ }\textbf {\bibinfo {volume} {33}},\
+  \bibinfo {pages} {249} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chazal}(2016)}]{21.0_2016TopoCompression}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Chazal}},\ }\href@noop {} {\bibinfo {title} {High-dimensional topological
+  data analysis}} (\bibinfo {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gilbert}\ and\ \citenamefont
+  {Levchenko}(2004)}]{12.2_compressingTopoNetworkGraphs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont
+  {Gilbert}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Levchenko}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings
+  of the LinkKDD workshop at the 10th ACM Conference on KDD}}},\ Vol.\ \bibinfo
+  {volume} {124}\ (\bibinfo {year} {2004})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kruja}\ \emph {et~al.}(2001)\citenamefont {Kruja},
+  \citenamefont {Marks}, \citenamefont {Blair},\ and\ \citenamefont
+  {Waters}}]{01.10_2001HistoryofGT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Kruja}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Marks}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Blair}},\ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Waters}},\ }in\ \href@noop {}
+  {\emph {\bibinfo {booktitle} {International Symposium on Graph Drawing}}}\
+  (\bibinfo {organization} {Springer},\ \bibinfo {year} {2001})\ pp.\ \bibinfo
+  {pages} {272--286}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nastase}\ \emph {et~al.}(2015)\citenamefont
+  {Nastase}, \citenamefont {Mihalcea},\ and\ \citenamefont
+  {Radev}}]{22.0_2015_NLPGraphs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Nastase}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Mihalcea}},\
+  and\ \bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont {Radev}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Natural Language
+  Engineering}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo {pages} {665}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Y{\i}ld{\i}r{\i}m}\ \emph {et~al.}(2021)\citenamefont
+  {Y{\i}ld{\i}r{\i}m}, \citenamefont {Okay},\ and\ \citenamefont
+  {{\"O}zdemir}}]{22.1_BigDataPredictionGT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Y{\i}ld{\i}r{\i}m}}, \bibinfo {author} {\bibfnamefont {F.~Y.}\ \bibnamefont
+  {Okay}},\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{\"O}zdemir}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Expert Systems with Applications}\ }\textbf {\bibinfo {volume} {176}},\
+  \bibinfo {pages} {114840} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bhattacharya}\ and\ \citenamefont
+  {Poray}(2016)}]{22.2_GTapplicationBigData}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bhattacharya}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Poray}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {2016
+  International Conference on Computer, Electrical \& Communication Engineering
+  (ICCECE)}}}\ (\bibinfo {organization} {IEEE},\ \bibinfo {year} {2016})\ pp.\
+  \bibinfo {pages} {1--8}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Encyclopedia}(2021)}]{01.13_GTBackground}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~B.}\ \bibnamefont
+  {Encyclopedia}},\ }\href@noop {} {\bibinfo {title} {History of graph
+  theory}},\ \bibinfo {howpublished} {Available at
+  \url{https://www.britannica.com/topic/graph-theory}} (\bibinfo {year}
+  {2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {James}(1999)}]{01.11_1999historyofTopo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~M.}\ \bibnamefont
+  {James}},\ }\href@noop {} {\emph {\bibinfo {title} {History of topology}}}\
+  (\bibinfo  {publisher} {Elsevier},\ \bibinfo {year} {1999})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hermida}\ \emph {et~al.}(1998)\citenamefont
+  {Hermida}, \citenamefont {Makkai},\ and\ \citenamefont
+  {Power}}]{01.14_HDMultigraphs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hermida}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Makkai}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Power}},\ }in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings. Thirteenth Annual
+  IEEE Symposium on Logic in Computer Science (Cat. No. 98CB36226)}}}\
+  (\bibinfo {organization} {IEEE},\ \bibinfo {year} {1998})\ pp.\ \bibinfo
+  {pages} {199--206}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fleischner}(1990)}]{01.16_EulerianGraphs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Fleischner}},\ }\href@noop {} {\emph {\bibinfo {title} {Eulerian graphs and
+  related topics}}}\ (\bibinfo  {publisher} {Elsevier},\ \bibinfo {year}
+  {1990})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mihail}\ and\ \citenamefont
+  {Winkler}(1996)}]{01.17_EulerianGraphOrientations}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Mihail}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Winkler}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Algorithmica}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages} {402}
+  (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aull}\ and\ \citenamefont
+  {Lowen}(2013)}]{01.12_2013TopoHistHandbook}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~E.}\ \bibnamefont
+  {Aull}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Lowen}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Handbook of the history of general
+  topology}}},\ Vol.~\bibinfo {volume} {3}\ (\bibinfo  {publisher} {Springer
+  Science \& Business Media},\ \bibinfo {year} {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Debnath}(2010)}]{01.18_EulerFormula}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Debnath}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {International Journal of Mathematical Education in Science and Technology}\
+  }\textbf {\bibinfo {volume} {41}},\ \bibinfo {pages} {769} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {De~Silva}\ and\ \citenamefont
+  {Carlsson}(2004)}]{02.1_GCarlson2004topoEstimation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {De~Silva}}\ and\ \bibinfo {author} {\bibfnamefont {G.~E.}\ \bibnamefont
+  {Carlsson}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {PBG}}}\
+  (\bibinfo {year} {2004})\ pp.\ \bibinfo {pages} {157--166}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Phinyomark}\ \emph {et~al.}(2017)\citenamefont
+  {Phinyomark}, \citenamefont {Ibanez-Marcelo},\ and\ \citenamefont
+  {Petri}}]{18.1_2017TopoBigdataPipeline}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Phinyomark}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Ibanez-Marcelo}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Petri}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {IEEE
+  Transactions on Big Data}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo
+  {pages} {415} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chazal}\ and\ \citenamefont
+  {Michel}(2017)}]{11.0_chazal2017TopoDataScience}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Chazal}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Michel}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv
+  preprint arXiv:1710.04019}\ } (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eilenberg}(1944)}]{03_1944Homology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Eilenberg}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Annals of Mathematics}\ ,\ \bibinfo {pages} {407}} (\bibinfo {year}
+  {1944})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mac~Lane}(2013)}]{05_mac2013Functoriality}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Mac~Lane}},\ }\href@noop {} {\emph {\bibinfo {title} {Categories for the
+  working mathematician}}},\ Vol.~\bibinfo {volume} {5}\ (\bibinfo  {publisher}
+  {Springer Science \& Business Media},\ \bibinfo {year} {2013})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {May}(1992)}]{08.2_1992simplicialAlgebricTopo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {May}},\ }\href@noop {} {\emph {\bibinfo {title} {Simplicial objects in
+  algebraic topology}}},\ Vol.~\bibinfo {volume} {11}\ (\bibinfo  {publisher}
+  {University of Chicago Press},\ \bibinfo {year} {1992})\BibitemShut {NoStop}%
+\bibitem [{17.()}]{17.2_TGTonlineBritanica}%
+  \BibitemOpen
+  \href@noop {} {\bibinfo {title} {graph theory | problems \& applications |
+  britannica}},\ \bibinfo {howpublished}
+  {\url{https://www.britannica.com/topic/graph-theory}},\ \bibinfo {note}
+  {(Accessed on 11/14/2021)}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dumas}\ \emph {et~al.}(2003)\citenamefont {Dumas},
+  \citenamefont {Heckenbach}, \citenamefont {Saunders},\ and\ \citenamefont
+  {Welker}}]{08.1_2003SimplicialHomology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-G.}\ \bibnamefont
+  {Dumas}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Heckenbach}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Saunders}},\ and\
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Welker}},\ }in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {Algebra, Geometry and Software
+  Systems}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {2003})\ pp.\
+  \bibinfo {pages} {177--206}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Suciu}()}]{07.1_Homotopy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~A.}\ \bibnamefont
+  {Suciu}},\ }\href@noop {} {\bibinfo {title} {Topology:homotopy}},\ \bibinfo
+  {howpublished}
+  {\url{https://web.northeastern.edu/suciu/U565/U565sp10-homotopy.pdf}},\
+  \bibinfo {note} {(Accessed on 11/14/2021)}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Alatorre}\ \emph {et~al.}(2018)\citenamefont
+  {Alatorre}, \citenamefont {Becerra},\ and\ \citenamefont
+  {Casillas}}]{12.0_alatorre2018TDAinvariant}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Alatorre}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Becerra}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Casillas}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {American Journal
+  of Advanced Research}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages}
+  {1} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Botnan}(2020)}]{07.2_TopoBettiNumbers}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~B.}\ \bibnamefont
+  {Botnan}},\ }\href@noop {} {\bibinfo {title} {lecture\_notes.pdf}},\ \bibinfo
+  {howpublished} {\url{https://www.few.vu.nl/~botnan/lecture_notes.pdf}}
+  (\bibinfo {year} {2020}),\ \bibinfo {note} {(Accessed on
+  11/14/2021)}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Niyogi}\ \emph {et~al.}(2008)\citenamefont {Niyogi},
+  \citenamefont {Smale},\ and\ \citenamefont
+  {Weinberger}}]{03.2_2008FindingHomology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Niyogi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Smale}},\ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Weinberger}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Discrete \&
+  Computational Geometry}\ }\textbf {\bibinfo {volume} {39}},\ \bibinfo {pages}
+  {419} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zomorodian}\ and\ \citenamefont
+  {Carlsson}(2008)}]{03.4_2008localizedHomology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zomorodian}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Carlsson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Computational Geometry}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo
+  {pages} {126} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ghrist}(2018)}]{03.7_2018homologicalAlgebra&Data}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Ghrist}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Math.
+  Data}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {273} (\bibinfo
+  {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wolfram}()}]{07.3_BettiNumber}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Wolfram}},\ }\href@noop
+  {} {\bibinfo {title} {Betti number -- from wolfram mathworld}},\ \bibinfo
+  {howpublished} {\url{https://mathworld.wolfram.com/BettiNumber.html}},\
+  \bibinfo {note} {(Accessed on 11/14/2021)}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Curtis}(1971)}]{08_1971simplicialComplex}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~B.}\ \bibnamefont
+  {Curtis}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Advances in Mathematics}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo
+  {pages} {107} (\bibinfo {year} {1971})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Salnikov}\ \emph {et~al.}(2018)\citenamefont
+  {Salnikov}, \citenamefont {Cassese},\ and\ \citenamefont
+  {Lambiotte}}]{08.3_2018simplicialComplexes}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Salnikov}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Cassese}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Lambiotte}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {European Journal
+  of Physics}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo {pages} {014001}
+  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nakamura}\ \emph {et~al.}(2015)\citenamefont
+  {Nakamura}, \citenamefont {Hiraoka}, \citenamefont {Hirata}, \citenamefont
+  {Escolar},\ and\ \citenamefont {Nishiura}}]{03.6_2015persistentHomo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Nakamura}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Hiraoka}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Hirata}}, \bibinfo
+  {author} {\bibfnamefont {E.~G.}\ \bibnamefont {Escolar}},\ and\ \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Nishiura}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nanotechnology}\ }\textbf
+  {\bibinfo {volume} {26}},\ \bibinfo {pages} {304001} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carlsson}\ and\ \citenamefont
+  {Zomorodian}(2009)}]{06.2_carlsson2009Multipersistence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Carlsson}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zomorodian}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Discrete \& Computational Geometry}\ }\textbf {\bibinfo {volume} {42}},\
+  \bibinfo {pages} {71} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chazal}\ and\ \citenamefont
+  {Lieutier}(2008)}]{09.2_chazal2008CompGeometry}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Chazal}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Lieutier}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Computational Geometry}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo
+  {pages} {156} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rezno}()}]{12.2_ProjectionMath}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Rezno}},\ }\href@noop
+  {} {\bibinfo {title} {Notes.pdf}},\ \bibinfo {howpublished}
+  {\url{https://www.math.colostate.edu/~renzo/teaching/Topology10/Notes.pdf}},\
+  \bibinfo {note} {(Accessed on 11/14/2021)}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kram{\'a}r}\ \emph {et~al.}(2013)\citenamefont
+  {Kram{\'a}r}, \citenamefont {Goullet}, \citenamefont {Kondic},\ and\
+  \citenamefont {Mischaikow}}]{03.5_kramar2013persistenceComputing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kram{\'a}r}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Goullet}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Kondic}},\ and\ \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Mischaikow}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf
+  {\bibinfo {volume} {87}},\ \bibinfo {pages} {042207} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kesselman}(2021)}]{rktoolkit}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kesselman}},\ }\href {https://github.com/andorsk/rk_toolkit} {\bibinfo
+  {title} {Rk toolkit: Rk toolkit for building rk-diagrams and rk-models}}
+  (\bibinfo {year} {2021})\BibitemShut {NoStop}%
+\bibitem [{a20(2021{\natexlab{a}})}]{a2021_scikitlearn}%
+  \BibitemOpen
+  \href {https://scikit-learn.org/stable/} {\bibinfo {title} {scikit-learn:
+  machine learning in python — scikit-learn 1.0.1 documentation}} (\bibinfo
+  {year} {2021}{\natexlab{a}})\BibitemShut {NoStop}%
+\bibitem [{a20(2021{\natexlab{b}})}]{a2021_61}%
+  \BibitemOpen
+  \href
+  {https://scikit-learn.org/stable/modules/compose.html#pipeline-chaining-estimators}
+  {\bibinfo {title} {6.1. pipelines and composite estimators}} (\bibinfo {year}
+  {2021}{\natexlab{b}})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {andorsk}(2021)}]{andorsk_2021_andorskrkworkbench}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {andorsk}},\ }\href
+  {https://github.com/andorsk/rk-workbench} {\bibinfo {title}
+  {andorsk/rk-workbench: R-k workbench builds a toolkit for ds workflow
+  development using rk-diagrams}} (\bibinfo {year} {2021})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont
+  {ml~tooling}(2021)}]{mltooling_2021_mltoolingmlworkspace}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {ml~tooling}},\ }\href
+  {https://github.com/ml-tooling/ml-workspace} {\bibinfo {title}
+  {ml-tooling/ml-workspace: All-in-one web-based ide specialized for machine
+  learning and data science.}} (\bibinfo {year} {2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barenblatt}(1987)}]{23.0_DimensionalAnalysis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~I.}\ \bibnamefont
+  {Barenblatt}},\ }\href@noop {} {\emph {\bibinfo {title} {Dimensional
+  analysis}}}\ (\bibinfo  {publisher} {CRC Press},\ \bibinfo {year}
+  {1987})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tableau}(2012)}]{TableauSuperStore}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Tableau}},\ }\href
+  {"http://myurl"} {\  (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{iri(2021)}]{iris_dataset}%
+  \BibitemOpen
+  \href {https://archive.ics.uci.edu/ml/datasets/iris} {} (\bibinfo {year}
+  {2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ben~Mahria}\ \emph {et~al.}(2021)\citenamefont
+  {Ben~Mahria}, \citenamefont {Chaker},\ and\ \citenamefont
+  {Zahi}}]{ben_mahria_chaker_zahi_2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Ben~Mahria}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Chaker}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Zahi}},\ }\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Big Data}\ }\textbf {\bibinfo
+  {volume} {8}},\ \href {https://doi.org/10.1186/s40537-021-00412-2}
+  {10.1186/s40537-021-00412-2} (\bibinfo {year} {2021})\BibitemShut {NoStop}%
+\bibitem [{owl(2012)}]{owl_semantic_web_standards_2012}%
+  \BibitemOpen
+  \href {https://www.w3.org/OWL/} {} (\bibinfo {year} {2012})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hilaga}\ \emph {et~al.}()\citenamefont {Hilaga},
+  \citenamefont {Shinagawa}, \citenamefont {Kohmura},\ and\ \citenamefont
+  {Kunii}}]{hilaga_shinagawa_kohmura_kunii}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Hilaga}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Shinagawa}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kohmura}},\ and\ \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Kunii}},\ }\href
+  {http://graphics.stanford.edu/courses/cs468-08-fall/pdf/Hilaga01.pdf} {\emph
+  {\bibinfo {title} {Topology Matching for Fully Automatic Similarity
+  Estimation of 3D Shapes}}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Máté}\ \emph {et~al.}(2014)\citenamefont {Máté},
+  \citenamefont {Hofmann}, \citenamefont {Wenzel},\ and\ \citenamefont
+  {Heermann}}]{mate_hofmann_wenzel_heermann_2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Máté}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Hofmann}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Wenzel}},\ and\ \bibinfo
+  {author} {\bibfnamefont {D.~W.}\ \bibnamefont {Heermann}},\ }\href
+  {https://doi.org/10.1016/j.bbamem.2013.08.019} {\bibfield  {journal}
+  {\bibinfo  {journal} {Biochimica et Biophysica Acta (BBA) - Biomembranes}\
+  }\textbf {\bibinfo {volume} {1838}},\ \bibinfo {pages} {1180–1190}
+  (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mazandu}\ and\ \citenamefont
+  {Mulder}(2012)}]{mazandu_mulder_2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~K.}\ \bibnamefont
+  {Mazandu}}\ and\ \bibinfo {author} {\bibfnamefont {N.~J.}\ \bibnamefont
+  {Mulder}},\ }\href {https://doi.org/10.1155/2012/975783} {\bibfield
+  {journal} {\bibinfo  {journal} {Advances in Bioinformatics}\ }\textbf
+  {\bibinfo {volume} {2012}},\ \bibinfo {pages} {1–17} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Reuter}(2009)}]{reuter_2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Reuter}},\ }\href {https://doi.org/10.1007/s11263-009-0278-1} {\bibfield
+  {journal} {\bibinfo  {journal} {International Journal of Computer Vision}\
+  }\textbf {\bibinfo {volume} {89}},\ \bibinfo {pages} {287–308} (\bibinfo
+  {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{Sal()}]{Salleh1_et_al}%
+  \BibitemOpen
+  \href
+  {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.440.8145&rep=rep1&type=pdf}
+  {}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Roughgarden}\ and\ \citenamefont
+  {Valiant}(2021)}]{roughgarden_valiant_2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Roughgarden}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Valiant}},\ }\href {https://web.stanford.edu/class/cs168/l/l3.pdf} {\emph
+  {\bibinfo {title} {CS168: The Modern Algorithmic Toolbox Lecture 3:
+  Similarity Metrics and kd-Trees}}}\ (\bibinfo {year} {2021})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Gilbert}\ and\ \citenamefont
+  {Levchenko}()}]{gilbert_levchenko}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Gilbert}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Levchenko}},\ }\href
+  {https://klevchen.ece.illinois.edu/pubs/gl-linkkdd04.pdf} {\emph {\bibinfo
+  {title} {Compressing Network Graphs}}}\BibitemShut {NoStop}%
+\bibitem [{a20(2020)}]{a2020_nevergrad}%
+  \BibitemOpen
+  \href {https://facebookresearch.github.io/nevergrad/} {\bibinfo {title}
+  {Nevergrad - a gradient-free optimization platform — nevergrad
+  documentation}} (\bibinfo {year} {2020})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bailes}\ \emph {et~al.}(2021)\citenamefont {Bailes},
+  \citenamefont {Berger}, \citenamefont {Brady}, \citenamefont {Branchesi},
+  \citenamefont {Danzmann}, \citenamefont {Evans}, \citenamefont
+  {Holley-Bockelmann}, \citenamefont {Iyer}, \citenamefont {Kajita},
+  \citenamefont {Katsanevas} \emph {et~al.}}]{00.3_GravitationalWaveResearch}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Bailes}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Berger}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Brady}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Branchesi}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Danzmann}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Evans}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Holley-Bockelmann}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Iyer}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Kajita}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Katsanevas}},
+  \emph {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Reviews Physics}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages}
+  {344} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{00.()}]{00.4_GWRevolution}%
+  \BibitemOpen
+  \href@noop {} {\bibinfo {title} {The gravitational-wave "revolution" is
+  underway - scientific american}},\ \bibinfo {howpublished}
+  {\url{https://www.scientificamerican.com/article/the-gravitational-wave-revolution-is-underway/}},\
+  \bibinfo {note} {(Accessed on 11/27/2021)}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Collaboration}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {Collaboration}, \citenamefont
+  {Collaboration} \emph {et~al.}}]{24.0_BinaryMergerIdentification}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont
+  {Collaboration}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Collaboration}}, \emph {et~al.},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {GRB Coordinates Network}\ }\textbf {\bibinfo {volume}
+  {25187}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2019}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Collaboration}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {Collaboration}, \citenamefont
+  {Collaboration} \emph {et~al.}}]{24.1_BinaryMergerClassify}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont
+  {Collaboration}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Collaboration}}, \emph {et~al.},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {GRB Coordinates Network}\ }\textbf {\bibinfo {volume}
+  {25324}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2019}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hall}\ \emph {et~al.}(2020)\citenamefont {Hall},
+  \citenamefont {Gow},\ and\ \citenamefont
+  {Byrnes}}]{00.7_LIGOBayesianAnalysis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Hall}}, \bibinfo {author} {\bibfnamefont {A.~D.}\ \bibnamefont {Gow}},\ and\
+  \bibinfo {author} {\bibfnamefont {C.~T.}\ \bibnamefont {Byrnes}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  D}\ }\textbf {\bibinfo {volume} {102}},\ \bibinfo {pages} {123524} (\bibinfo
+  {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2004)\citenamefont {Abbott},
+  \citenamefont {Abbott}, \citenamefont {Adhikari}, \citenamefont {Ageev},
+  \citenamefont {Allen}, \citenamefont {Amin}, \citenamefont {Anderson},
+  \citenamefont {Anderson}, \citenamefont {Araya}, \citenamefont {Armandula}
+  \emph {et~al.}}]{00.6_LIGOAnalysisPipeline}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Abbott}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Adhikari}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Ageev}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Allen}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Amin}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Anderson}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Anderson}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Araya}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Armandula}}, \emph {et~al.},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  D}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo {pages} {122001} (\bibinfo
+  {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Van Der~Sluys}\ \emph {et~al.}(2009)\citenamefont
+  {Van Der~Sluys}, \citenamefont {Mandel}, \citenamefont {Raymond},
+  \citenamefont {Kalogera}, \citenamefont {R{\"o}ver},\ and\ \citenamefont
+  {Christensen}}]{24.4_CompactBinaryParameterEstimates}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Van
+  Der~Sluys}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandel}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Raymond}}, \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Kalogera}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {R{\"o}ver}},\ and\ \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Christensen}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Classical and Quantum Gravity}\ }\textbf
+  {\bibinfo {volume} {26}},\ \bibinfo {pages} {204010} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Krastev}\ \emph {et~al.}(2021)\citenamefont
+  {Krastev}, \citenamefont {Gill}, \citenamefont {Villar},\ and\ \citenamefont
+  {Berger}}]{24.5_GWParameterEsitmation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~G.}\ \bibnamefont
+  {Krastev}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Gill}},
+  \bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont {Villar}},\ and\
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Berger}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf
+  {\bibinfo {volume} {815}},\ \bibinfo {pages} {136161} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bhagwat}\ \emph {et~al.}(2021)\citenamefont
+  {Bhagwat}, \citenamefont {De~Luca}, \citenamefont {Franciolini},
+  \citenamefont {Pani},\ and\ \citenamefont
+  {Riotto}}]{24.6_LIGOParameterEstimates}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bhagwat}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {De~Luca}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Franciolini}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Pani}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Riotto}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Cosmology and Astroparticle
+  Physics}\ }\textbf {\bibinfo {volume} {2021}}\bibinfo  {number} { (01)},\
+  \bibinfo {pages} {037}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bertone}\ \emph {et~al.}(2019)\citenamefont
+  {Bertone}, \citenamefont {Coogan}, \citenamefont {Gaggero}, \citenamefont
+  {Kavanagh},\ and\ \citenamefont {Weniger}}]{24.8_PBHdetectionparameters}%
+  \BibitemOpen
+\bibfield  {number} {  }\bibfield  {author} {\bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Bertone}}, \bibinfo {author} {\bibfnamefont {A.~M.}\
+  \bibnamefont {Coogan}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Gaggero}}, \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {Kavanagh}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Weniger}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review D}\ }\textbf {\bibinfo {volume} {100}},\ \bibinfo {pages}
+  {123013} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2020)\citenamefont {Abbott},
+  \citenamefont {Abbott}, \citenamefont {Abbott}, \citenamefont {Abraham},
+  \citenamefont {Acernese}, \citenamefont {Ackley}, \citenamefont {Adams},
+  \citenamefont {Adya}, \citenamefont {Affeldt}, \citenamefont {Agathos} \emph
+  {et~al.}}]{00.5_GWDetectionNoiseCatalogue}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Abbott}},
+  \bibinfo {author} {\bibfnamefont {T.~D.}\ \bibnamefont {Abbott}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Abraham}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Acernese}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Ackley}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Adams}}, \bibinfo {author} {\bibfnamefont {V.~B.}\
+  \bibnamefont {Adya}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Affeldt}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Agathos}},
+  \emph {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Classical and Quantum Gravity}\ }\textbf {\bibinfo {volume} {37}},\ \bibinfo
+  {pages} {055002} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Finstad}\ and\ \citenamefont
+  {Brown}(2020)}]{24.7_qvalueestimation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Finstad}}\ and\ \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Brown}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Astrophysical Journal Letters}\ }\textbf {\bibinfo {volume} {905}},\ \bibinfo
+  {pages} {L9} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {De~Luca}\ \emph {et~al.}(2019)\citenamefont
+  {De~Luca}, \citenamefont {Desjacques}, \citenamefont {Franciolini},
+  \citenamefont {Malhotra},\ and\ \citenamefont {Riotto}}]{24.9_EffectiveSpin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {De~Luca}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Desjacques}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Franciolini}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Malhotra}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Riotto}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Cosmology and
+  Astroparticle Physics}\ }\textbf {\bibinfo {volume} {2019}}\bibinfo  {number}
+  { (05)},\ \bibinfo {pages} {018}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Scikit}(2014)}]{sklearn.manifold.tsne_2014}%
+  \BibitemOpen
+\bibfield  {number} {  }\bibfield  {author} {\bibinfo {author} {\bibnamefont
+  {Scikit}},\ }\href
+  {https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html}
+  {\bibinfo {title} {Scikit-tsne}} (\bibinfo {year} {2014})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Van~der Maaten}\ and\ \citenamefont
+  {Hinton}(2008)}]{25.0_tSNE1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Van~der Maaten}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Hinton}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of machine learning research}\ }\textbf {\bibinfo {volume} {9}}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wattenberg}\ \emph {et~al.}(2016)\citenamefont
+  {Wattenberg}, \citenamefont {Vi{\'e}gas},\ and\ \citenamefont
+  {Johnson}}]{25.1_tSNE2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Wattenberg}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Vi{\'e}gas}},\ and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Johnson}},\ }\href@noop {} {\bibinfo {title} {How to use t-sne effectively.
+  distill (2016)}} (\bibinfo {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Linderman}\ and\ \citenamefont
+  {Steinerberger}(2019)}]{25.2_linderman2019tSNE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
+  {Linderman}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Steinerberger}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {SIAM Journal on Mathematics of Data Science}\ }\textbf {\bibinfo {volume}
+  {1}},\ \bibinfo {pages} {313} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Arora}\ \emph {et~al.}(2018)\citenamefont {Arora},
+  \citenamefont {Hu},\ and\ \citenamefont {Kothari}}]{25.3_tSNE2018analysis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Arora}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Hu}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.~K.}\ \bibnamefont {Kothari}},\ }in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {Conference on learning theory}}}\
+  (\bibinfo {organization} {PMLR},\ \bibinfo {year} {2018})\ pp.\ \bibinfo
+  {pages} {1455--1462}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Macleod}\ \emph {et~al.}(2021)\citenamefont
+  {Macleod}, \citenamefont {Areeda}, \citenamefont {Coughlin}, \citenamefont
+  {Massinger},\ and\ \citenamefont {Urban}}]{25.4_CBC2021gwpy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Macleod}}, \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Areeda}},
+  \bibinfo {author} {\bibfnamefont {S.~B.}\ \bibnamefont {Coughlin}}, \bibinfo
+  {author} {\bibfnamefont {T.~J.}\ \bibnamefont {Massinger}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.~L.}\ \bibnamefont {Urban}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {SoftwareX}\ }\textbf {\bibinfo
+  {volume} {13}},\ \bibinfo {pages} {100657} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Biwer}\ \emph {et~al.}(2019)\citenamefont {Biwer},
+  \citenamefont {Capano}, \citenamefont {De}, \citenamefont {Cabero},
+  \citenamefont {Brown}, \citenamefont {Nitz},\ and\ \citenamefont
+  {Raymond}}]{25.5_2019pycbcInference}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Biwer}}, \bibinfo {author} {\bibfnamefont {C.~D.}\ \bibnamefont {Capano}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {De}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Cabero}}, \bibinfo {author} {\bibfnamefont
+  {D.~A.}\ \bibnamefont {Brown}}, \bibinfo {author} {\bibfnamefont {A.~H.}\
+  \bibnamefont {Nitz}},\ and\ \bibinfo {author} {\bibfnamefont
+  {V.}~\bibnamefont {Raymond}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+   {journal} {Publications of the Astronomical Society of the Pacific}\
+  }\textbf {\bibinfo {volume} {131}},\ \bibinfo {pages} {024503} (\bibinfo
+  {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gabbard}\ \emph {et~al.}(2019)\citenamefont
+  {Gabbard}, \citenamefont {Messenger}, \citenamefont {Heng}, \citenamefont
+  {Tonolini},\ and\ \citenamefont {Murray-Smith}}]{25.6_Glasgow2019VITAMIN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Gabbard}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Messenger}},
+  \bibinfo {author} {\bibfnamefont {I.~S.}\ \bibnamefont {Heng}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Tonolini}},\ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Murray-Smith}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:1909.06296}\
+  } (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cuoco}\ \emph {et~al.}(2022)\citenamefont {Cuoco},
+  \citenamefont {Patricelli}, \citenamefont {Iess},\ and\ \citenamefont
+  {Morawski}}]{25.7_cuoco2022Wavefier}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Cuoco}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Patricelli}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Iess}},\ and\ \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Morawski}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Computational Science}\
+  }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages} {479} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Grigor’yan}\ \emph {et~al.}(2018)\citenamefont
+  {Grigor’yan}, \citenamefont {Muranov}, \citenamefont {Vershinin},\ and\
+  \citenamefont {Yau}}]{01.15_HomologyofMultigraphs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Grigor’yan}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Muranov}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Vershinin}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.-T.}\ \bibnamefont {Yau}},\ }in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {Forum Mathematicum}}},\
+  Vol.~\bibinfo {volume} {30}\ (\bibinfo {organization} {De Gruyter},\ \bibinfo
+  {year} {2018})\ pp.\ \bibinfo {pages} {1319--1337}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kour}\ and\ \citenamefont
+  {Saabne}(2014{\natexlab{a}})}]{kour2014real}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Kour}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Saabne}},\
+  }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Frontiers in Handwriting
+  Recognition (ICFHR), 2014 14th International Conference on}}}\ (\bibinfo
+  {organization} {IEEE},\ \bibinfo {year} {2014})\ pp.\ \bibinfo {pages}
+  {417--422}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kour}\ and\ \citenamefont
+  {Saabne}(2014{\natexlab{b}})}]{kour2014fast}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Kour}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Saabne}},\
+  }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Soft Computing and Pattern
+  Recognition (SoCPaR), 2014 6th International Conference of}}}\ (\bibinfo
+  {organization} {IEEE},\ \bibinfo {year} {2014})\ pp.\ \bibinfo {pages}
+  {312--318}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hadash}\ \emph {et~al.}(2018)\citenamefont {Hadash},
+  \citenamefont {Kermany}, \citenamefont {Carmeli}, \citenamefont {Lavi},
+  \citenamefont {Kour},\ and\ \citenamefont {Jacovi}}]{hadash2018estimate}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Hadash}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Kermany}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Carmeli}}, \bibinfo
+  {author} {\bibfnamefont {O.}~\bibnamefont {Lavi}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Kour}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Jacovi}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:1804.09028}\ } (\bibinfo
+  {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{top()}]{topological}%
+  \BibitemOpen
+  \href {https://eecs.ceas.uc.edu/~wilseypa/research/tda/} {\bibinfo {title}
+  {Topological data analysis (tda)}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {VanderWeele}\ and\ \citenamefont
+  {Robins}(2007)}]{vanderweele_robins_2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~J.}\ \bibnamefont
+  {VanderWeele}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Robins}},\ }\href {https://doi.org/10.1097/ede.0b013e318127181b} {\bibfield
+  {journal} {\bibinfo  {journal} {Epidemiology}\ }\textbf {\bibinfo {volume}
+  {18}},\ \bibinfo {pages} {561–568} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Strazzeri}\ and\ \citenamefont
+  {S{\'a}nchez-Garc{\i}a}(2018)}]{04.1_2018morseclustering}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Strazzeri}}\ and\ \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
+  {S{\'a}nchez-Garc{\i}a}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {CoRR, abs/1806.06142}\ } (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Eriksson}\ and\ \citenamefont
+  {Nowak}()}]{04.2_eriksonClustering}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Eriksson}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Nowak}},\ }\href@noop {} {\ }\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bj{\"o}rner}(1995)}]{06_1995topobookHomology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Bj{\"o}rner}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Handbook of combinatorics}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo
+  {pages} {1819} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cohen-Steiner}\ \emph {et~al.}(2007)\citenamefont
+  {Cohen-Steiner}, \citenamefont {Edelsbrunner},\ and\ \citenamefont
+  {Harer}}]{06.2_cohen2007stabilityPersistence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Cohen-Steiner}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Edelsbrunner}},\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Harer}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Discrete \& computational geometry}\ }\textbf {\bibinfo {volume} {37}},\
+  \bibinfo {pages} {103} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Edelsbrunner}\ \emph
+  {et~al.}(2000{\natexlab{a}})\citenamefont {Edelsbrunner}, \citenamefont
+  {Letscher},\ and\ \citenamefont
+  {Zomorodian}}]{06.3_TopologicalPesistenceSimp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Edelsbrunner}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Letscher}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zomorodian}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings
+  41st annual symposium on foundations of computer science}}}\ (\bibinfo
+  {organization} {IEEE},\ \bibinfo {year} {2000})\ pp.\ \bibinfo {pages}
+  {454--463}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont
+  {Hartigan}(1975{\natexlab{b}})}]{04.3_hartigan1975clustering}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Hartigan}},\ }\href@noop {} {\emph {\bibinfo {title} {Clustering
+  algorithms}}}\ (\bibinfo  {publisher} {John Wiley \& Sons, Inc.},\ \bibinfo
+  {year} {1975})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hatcher}(2005)}]{02.2_hatcher2005algebraicTopo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Hatcher}},\ }\href@noop {} {\emph {\bibinfo {title} {Algebraic topology}}}\
+  (\bibinfo {year} {2005})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Miller}\ and\ \citenamefont
+  {Sturmfels}(2004)}]{09_2004combinatorialTopology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Miller}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Sturmfels}},\ }\href@noop {} {\emph {\bibinfo {title} {Combinatorial
+  commutative algebra}}},\ Vol.\ \bibinfo {volume} {227}\ (\bibinfo
+  {publisher} {Springer Science \& Business Media},\ \bibinfo {year}
+  {2004})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Penrose}\ \emph {et~al.}(2003)\citenamefont {Penrose}
+  \emph {et~al.}}]{09.1_penrose2003GraphTheory}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Penrose}} \emph {et~al.},\ }\href@noop {} {\emph {\bibinfo {title} {Random
+  geometric graphs}}},\ Vol.~\bibinfo {volume} {5}\ (\bibinfo  {publisher}
+  {Oxford university press},\ \bibinfo {year} {2003})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tenenbaum}\ \emph {et~al.}(2000)\citenamefont
+  {Tenenbaum}, \citenamefont {De~Silva},\ and\ \citenamefont
+  {Langford}}]{10.1_HDdataReduction}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
+  {Tenenbaum}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {De~Silva}},\ and\ \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Langford}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {science}\ }\textbf {\bibinfo {volume} {290}},\ \bibinfo {pages} {2319}
+  (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carlsson}(2020)}]{11.2_carlsson2020TDAMethods}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Carlsson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Reviews Physics}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages}
+  {697} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Edelsbrunner}\ \emph
+  {et~al.}(2000{\natexlab{b}})\citenamefont {Edelsbrunner}, \citenamefont
+  {Letscher},\ and\ \citenamefont
+  {Zomorodian}}]{01.2_2000topologicalPersistenceSimp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Edelsbrunner}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Letscher}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zomorodian}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings
+  41st annual symposium on foundations of computer science}}}\ (\bibinfo
+  {organization} {IEEE},\ \bibinfo {year} {2000})\ pp.\ \bibinfo {pages}
+  {454--463}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Niyogi}\ \emph {et~al.}(2011)\citenamefont {Niyogi},
+  \citenamefont {Smale},\ and\ \citenamefont
+  {Weinberger}}]{13.0_2011topoMLNoise}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Niyogi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Smale}},\ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Weinberger}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {SIAM Journal on
+  Computing}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo {pages} {646}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Grove}(1993)}]{14.0_1993DistanceFunctions}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Grove}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of
+  Symposia in Pure Mathematics}}},\ Vol.~\bibinfo {volume} {54}\ (\bibinfo
+  {year} {1993})\ pp.\ \bibinfo {pages} {357--385}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cang}\ and\ \citenamefont
+  {Wei}(2017)}]{15.0_2017topologyNeuralNets}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Cang}}\ and\ \bibinfo {author} {\bibfnamefont {G.-W.}\ \bibnamefont {Wei}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {PLoS computational
+  biology}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {e1005690}
+  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2017)\citenamefont {Adams},
+  \citenamefont {Emerson}, \citenamefont {Kirby}, \citenamefont {Neville},
+  \citenamefont {Peterson}, \citenamefont {Shipman}, \citenamefont
+  {Chepushtanova}, \citenamefont {Hanson}, \citenamefont {Motta},\ and\
+  \citenamefont {Ziegelmeier}}]{13.1_2017TopopersistenceML}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Adams}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Emerson}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kirby}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Neville}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Peterson}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Shipman}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Chepushtanova}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Hanson}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Motta}},\ and\ \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Ziegelmeier}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Machine Learning Research}\ }\textbf
+  {\bibinfo {volume} {18}} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Favelier}\ \emph {et~al.}(2018)\citenamefont
+  {Favelier}, \citenamefont {Gueunet}, \citenamefont {Gyulassy}, \citenamefont
+  {Kitware}, \citenamefont {Levine}, \citenamefont {Lukasczyk}, \citenamefont
+  {Sakurai}, \citenamefont {Soler}, \citenamefont {Tierny}, \citenamefont
+  {Usher} \emph {et~al.}}]{16.0_favelier2018TDAtoolkit}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Favelier}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Gueunet}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Gyulassy}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Kitware}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Levine}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Lukasczyk}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Sakurai}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Soler}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Tierny}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Usher}}, \emph {et~al.},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:1806.08126}\ } (\bibinfo
+  {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Patania}\ \emph {et~al.}(2017)\citenamefont
+  {Patania}, \citenamefont {Vaccarino},\ and\ \citenamefont
+  {Petri}}]{13.2_patania2017TDAwithML}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Patania}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Vaccarino}},\
+  and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Petri}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {EPJ Data Science}\
+  }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kesselman~A.}(2021)}]{StoreSalesOntology}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Kesselman~A.}},\ }\href@noop {} {\bibinfo {title} {Ontological
+  representation of store sales data}} (\bibinfo {year} {2021})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Manoff}(2000)}]{23.3_CovarantAffineSpaces}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Manoff}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv
+  preprint gr-qc/0006024}\ } (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bird}\ \emph {et~al.}(2016)\citenamefont {Bird},
+  \citenamefont {Cholis}, \citenamefont {Mu{\~n}oz}, \citenamefont
+  {Ali-Haimoud}, \citenamefont {Kamionkowski}, \citenamefont {Kovetz},
+  \citenamefont {Raccanelli},\ and\ \citenamefont
+  {Riess}}]{24.2_LIGODarkMatterDetection}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bird}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Cholis}},
+  \bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont {Mu{\~n}oz}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Ali-Haimoud}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Kamionkowski}}, \bibinfo {author}
+  {\bibfnamefont {E.~D.}\ \bibnamefont {Kovetz}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Raccanelli}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.~G.}\ \bibnamefont {Riess}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {116}},\ \bibinfo {pages} {201301} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2016)\citenamefont {Abbott},
+  \citenamefont {Abbott}, \citenamefont {Abbott}, \citenamefont {Abernathy},
+  \citenamefont {Acernese}, \citenamefont {Ackley}, \citenamefont {Adams},
+  \citenamefont {Adams}, \citenamefont {Addesso}, \citenamefont {Adhikari}
+  \emph {et~al.}}]{24.3_GWBinaryBlachHoleMerger}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Abbott}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Abbott}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Abernathy}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Acernese}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Ackley}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Adams}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Adams}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Addesso}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Adhikari}}, \emph {et~al.},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {116}},\ \bibinfo {pages} {061102} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\end{thebibliography}%

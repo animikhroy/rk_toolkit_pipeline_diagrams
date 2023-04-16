@@ -1,2 +1,0 @@
-* Ligo and Store Sales hyperref not working in objectives and introduction
-k f
