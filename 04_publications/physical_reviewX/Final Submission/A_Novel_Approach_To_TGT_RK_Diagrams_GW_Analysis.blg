@@ -1,0 +1,209 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: A_Novel_Approach_To_TGT_RK_Diagrams_GW_Analysis.aux
+Reallocating 'name_of_file' (item size: 1) to 53 items.
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: apsrev4-2.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: A_Novel_Approach_To_TGT_RK_Diagrams_GW_AnalysisNotes.bib
+Database file #2: ref.bib
+Reallocating 'field_info' (item size: 4) to 10032 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--can't use both volume and number fields in 01.5_LIGOOpenSci
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 02.3_2017introductionTDA
+while executing---line 3515 of file apsrev4-2.bst
+Warning--missing journal in 02.3_2017introductionTDA
+Warning--empty year in 02.4_TDAResearch
+Warning--empty year in 17.2_TGTonlineBritanica
+Warning--empty year in 07.1_Homotopy
+Warning--empty year in 07.3_BettiNumber
+Warning--empty year in 12.2_ProjectionMath
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry TableauSuperStore
+while executing---line 3515 of file apsrev4-2.bst
+Warning--missing journal in TableauSuperStore
+Warning--missing publisher in hilaga_shinagawa_kohmura_kunii
+Warning--empty year in hilaga_shinagawa_kohmura_kunii
+Warning--empty year in Salleh1_et_al
+Warning--missing publisher in roughgarden_valiant_2021
+Warning--missing publisher in gilbert_levchenko
+Warning--empty year in gilbert_levchenko
+Warning--empty year in 00.4_GWRevolution
+Warning--can't use both volume and number fields in 01.15_HomologyofMultigraphs
+Warning--empty year in topological
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry 04.2_eriksonClustering
+while executing---line 3515 of file apsrev4-2.bst
+Warning--missing journal in 04.2_eriksonClustering
+Warning--empty year in 04.2_eriksonClustering
+Warning--missing publisher in 02.2_hatcher2005algebraicTopo
+Warning--can't use both volume and number fields in 14.0_1993DistanceFunctions
+You've used 144 entries,
+            6079 wiz_defined-function locations,
+            2471 strings with 41372 characters,
+and the built_in function-call counts, 130576 in all, are:
+= -- 9432
+> -- 3114
+< -- 622
++ -- 1069
+- -- 736
+* -- 18860
+:= -- 12975
+add.period$ -- 144
+call.type$ -- 144
+change.case$ -- 631
+chr.to.int$ -- 139
+cite$ -- 187
+duplicate$ -- 12189
+empty$ -- 9861
+format.name$ -- 1855
+if$ -- 26460
+int.to.chr$ -- 6
+int.to.str$ -- 152
+missing$ -- 1695
+newline$ -- 485
+num.names$ -- 399
+pop$ -- 5430
+preamble$ -- 2
+purify$ -- 709
+quote$ -- 0
+skip$ -- 5457
+stack$ -- 0
+substring$ -- 3242
+swap$ -- 10739
+text.length$ -- 381
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 1928
+warning$ -- 21
+while$ -- 376
+width$ -- 0
+write$ -- 1128
+(There were 39 error messages)
