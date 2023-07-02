@@ -1,6 +1,7 @@
 \section{Case Study: LIGO Data Analysis}
 \label{sec:LIGO_Data_Analysis}
-    The previous case study demonstrated an example of "Event-driven" topological signature identification on Tableau Super-Store Sales Data \cite{TableauSuperStore} with the help of unique filter-specific R-K Diagrams generated using the R-K pipeline. In this second case study, we aim to extend the identification of unique topological signatures along with a combined \textit{\textbf{"identification-classification-segmentation"}} use-case to address an important scientific problem in the field of Gravitational-Wave Astronomy. This field has been exploding with latest breakthroughs in scientific research and is of special interest in recent years.\cite{00.3_GravitationalWaveResearch}\cite{00.4_GWRevolution} Hence, we shall now demonstrate a more specialized and scientific application of the R-K pipeline on a  Physical/Astronomical Dataset (as elaborated in \hyperref[sec:PhysicalSystems]{section 4.2.1} with certain domain specific modifications intended for  Gravitational-Wave Analysis\cite{00.1_2012GWAnalysisFormalism} \cite{00.2_schutz2012GWDataAnalysis} on LIGO data, which would aid in the identification and classification of  Compact Binary Merger Events or \textit{\textbf{Compact Binary Coalescences (CBCs)}} \cite{24.0_BinaryMergerIdentification} \cite{24.1_BinaryMergerClassify} such as Black Holes, Neutron Stars \& Candidate Primordial Black Holes. We have thus applied the R-K pipeline to data-strains and datasets released by the LIGO Open Science Centre \cite{01.5_LIGOOpenSci} \cite{00_LIGOOpenSciData} for the the successful demonstration of our computational framework.This dataset was specifically chosen over other scientific data for the following reasons:
+
+The previous case study demonstrated an example of "Event-driven" topological signature identification on Tableau Super-Store Sales Data \cite{TableauSuperStore} with the help of unique filter-specific R-K Diagrams generated using the R-K pipeline. In this second case study, we aim to extend the identification of unique topological signatures along with a combined \textit{\textbf{"identification-classification-segmentation"}} use-case to address an important scientific problem in the field of Gravitational-Wave Astronomy. This field has been exploding with latest breakthroughs in scientific research and is of special interest in recent years.\cite{00.3_GravitationalWaveResearch}\cite{00.4_GWRevolution} Hence, we shall now demonstrate a more specialized and scientific application of the R-K pipeline on a  Physical/Astronomical Dataset (as elaborated in \hyperref[sec:PhysicalSystems]{section 4.2.1} with certain domain specific modifications intended for  Gravitational-Wave Analysis\cite{00.1_2012GWAnalysisFormalism} \cite{00.2_schutz2012GWDataAnalysis} on LIGO data, which would aid in the identification and classification of  Compact Binary Merger Events or \textit{\textbf{Compact Binary Coalescences (CBCs)}} \cite{24.0_BinaryMergerIdentification} \cite{24.1_BinaryMergerClassify} such as Black Hole Binaries (BH-BH), Neutron Star Binaries (NS-NS), Neutron Star-Black Hole Binaries (NS-BH) \& Black Hole-Candidate Primordial Black Hole Binaries (BH-PBH). We have thus applied the R-K pipeline to data-strains and datasets released by the LIGO Open Science Centre \cite{01.5_LIGOOpenSci} \cite{00_LIGOOpenSciData} for the the successful demonstration of our computational framework.The corresponding code along with our modified R-K Pipeline for LIGO and its applications on this dataset can be found on \href{https://github.com/animikhroy/rk_toolkit_pipeline_diagrams/tree/main/02_notebooks/rk_gw_mma}{Github: rk-gw-mma} \& \href{https://github.com/animikhroy/rk_toolkit_pipeline_diagrams/tree/main/03_rk-visualizer}{Github: 03-rk-visualiser} .This dataset was specifically chosen over other scientific data for the following reasons:
 
     \begin{enumerate}
         \item {To extend the scope of our pipeline and demonstrate a classification use-case on a field of scientific research that would be both relevant and useful in modern day Astronomy}
@@ -11,7 +12,7 @@
     \end{enumerate}
 
     \subsection{Methodology}
-    The methodology of this implementation has been focused to address the following domain specific challenges specifically with respect to the classification of Compact Binary Event Merger signals pertaining to \textbf{\textit{Black Holes, Neutron Stars and Primordial Black-Hole (Dark Matter):}}
+    The methodology of this implementation has been focused to address the following domain specific challenges specifically with respect to the classification of Compact Binary Event Merger signals pertaining to \textbf{\textit{Black Hole Binaries (BH-BH) , Neutron Star Binaries (NS-NS), Neutron Star-Black Hole Binaries (NS-BH) and Black Hole-Primordial Black-Hole Binares ((BH-PBH), Candidate Dark Matter):}}
 
     \begin{enumerate}
     
@@ -127,15 +128,32 @@
 
     \subsection{Primary Data Analysis}
 
-    Understanding the noise is crucial to detecting gravitational-wave signals and inferring the properties of the astrophysical sources that generate them. Improper modelling of the noise can result in the significance of an event being incorrectly estimated, and to systematic biases in the parameter estimation. To guard against these unwanted outcomes, detector characterization and noise modelling are significant activities within the LVC.\cite{00.5_GWDetectionNoiseCatalogue} While many textbook treatments of gravitational-wave data analysis describe the idealized case of independent detectors with stationary, Gaussian noise, actual LVC analyses are careful to account for deviations from this ideal.\cite{00.1_2012GWAnalysisFormalism} \cite{00.3_GravitationalWaveResearch}
+The primary analysis involves obtaining Gravitational Wave (GW) strain data in HDF5 format from the GW Open Science Center \hyperlink{website}{https://gwosc.org/data/}. This is achieved through the R-K Pipeline data-scraping module. The strain data is then plotted, and the transient gravitational wave signal is extracted from the detector noise. The event spectrograms are then plotted after noise filtering and elimination for further analysis using some relevant methods of Topological Data Analysis as explained below. \cite{00_LIGOOpenSciData} \cite{02.4_TDAResearch} \cite{02_carlsson2009topology}
 
-    The Advanced LIGO and Advanced Virgo detector data have a rich structure in both time and frequency. For a given gravitational-wave source, the noise (as described by its spectral density) governs the measured signal-to-noise ratio (SNR). The spectral frequency content of the LIGO-Livingston detector was averaged over a three-minute period shortly before the first detection of gravitational waves from a binary neutron star merger with the event name GW170817.\cite{00.5_GWDetectionNoiseCatalogue}
+One of the key techniques that can be applied at this stage is Persistent Homology, a method used in topological data analysis to study the shape of data and identify features at different scales. This technique can be particularly useful in the context of GW data, as it can help to identify patterns and structures in the spectrograms that may correspond to specific types of GW events. \cite{03.6_2015persistentHomo} \cite{06.1_carlsson2008persistentHomo} \cite{03.5_kramar2013persistenceComputing} \cite{03.3_de2007PersistentHomology}
 
-    The steep shape at low frequencies is dominated by noise related to ground motion. Above roughly
-    $100 Hz,$ the Advanced LIGO detectors are currently quantum noise limited, and their
-    noise curves are dominated by shot noise. High amplitude noise features are also present in the data at certain frequencies, including lines due to the AC power grid (harmonics of 60 Hz in the U.S. and 50 Hz in Europe), mechanical resonances of the mirror suspensions, injected calibration lines, and noise entering through the detector control systems. \cite{00.1_2012GWAnalysisFormalism} \cite{00.5_GWDetectionNoiseCatalogue} \cite{00.3_GravitationalWaveResearch}
+Another relevant technique is an extended implemenation with isnpiration from Gunner Carlson et. al.'s Mapper \cite{01.9_2007MapperPBG}, a tool for topological simplification and visualization. Mapper can be used to create a simplified representation of the high-dimensional data contained in the spectrograms via methods of projection and radial comparisons (as expalined in the subsequent sections), thereby, making it easier to identify and classify different types of GW signals and separate them from types of terrestrial noise signatures such as blips, whistles, koifish and other types of waveforms. \cite{GravitySpy:online}
 
-    \subsubsection{Strain Data}
+Furthermore, Topological filtering and noise reduction techniques can be highly effective in the analysis of Gravitational Wave (GW) strain data. These techniques can provide an improvement over traditional filtering methods such as Gaussian, Tukey, and Cosine filters, particularly in terms of isolating the true nature of the wave from the detector noise some of which have been demonstrated as a part of the Ligo R-K Pipeline under the scope of Primary Analysis in this paper.
+
+We especially considered exploring and implementing this technique as one of the key advantages of topological filtering is its ability to preserve the essential features of the data while reducing noise. This is particularly important in the context of GW data, where the signals of interest are often buried in significant amounts of noise. \cite{02.3_2017introductionTDA} \cite{11.2_carlsson2020TDAMethods} \cite{13.0_2011topoMLNoise} \cite{12.1_2002topologicalInvariaceProjection}
+
+In the realm of Primary Analysis, it is our firm belief that comprehending the noise is pivotal to the detection of gravitational-wave signals and the inference of the properties of the astrophysical sources that generate them. Misinterpretation of the noise can lead to an event's significance being inaccurately estimated, and to systematic biases in the parameter estimation. To safeguard against these undesirable outcomes, detector characterisation and noise modelling are substantial activities within the LIGO-Virgo Collaboration (LVC) \cite{00.5_GWDetectionNoiseCatalogue}.
+
+While many textbook treatments of gravitational-wave data analysis describe the idealised case of independent detectors with stationary, Gaussian noise, actual LVC analyses are careful to account for deviations from this ideal \cite{00.1_2012GWAnalysisFormalism} \cite{00.3_GravitationalWaveResearch}. This is because real-world detector noise is far from ideal and can be influenced by a variety of factors, including seismic activity, thermal noise, quantum noise, and even anthropogenic noise sources.
+
+The Advanced LIGO and Advanced Virgo detector data exhibit a rich structure in both time and frequency. For a given gravitational-wave source, the noise (as described by its spectral density) governs the measured signal-to-noise ratio (SNR). The spectral frequency content of the LIGO-Livingston detector was averaged over a three-minute period shortly before the first detection of gravitational waves from a binary neutron star merger with the event name GW170817 \cite{00.5_GWDetectionNoiseCatalogue}.
+
+The steep shape at low frequencies is dominated by noise related to ground motion. This seismic noise can be particularly problematic for gravitational-wave detectors, as it can mask the signals of interest. To mitigate this, gravitational-wave detectors are often built with sophisticated seismic isolation systems.
+
+Above roughly 100 Hz, the Advanced LIGO detectors are currently quantum noise limited, and their noise curves are dominated by shot noise. This quantum noise arises from the fundamental uncertainty principle of quantum mechanics, and it sets a fundamental limit on the sensitivity of the detectors.
+
+High amplitude noise features are also present in the data at certain frequencies, including lines due to the AC power grid (harmonics of 60 Hz in the U.S. and 50 Hz in Europe), mechanical resonances of the mirror suspensions, injected calibration lines, and noise entering through the detector control systems \cite{00.1_2012GWAnalysisFormalism} \cite{00.5_GWDetectionNoiseCatalogue} \cite{00.3_GravitationalWaveResearch}. These noise sources can create challenges for data analysis, but they can also be used to help calibrate the detectors and understand their performance.
+
+Hence our primary objective in this section is to extract the confident merger signals by seggregating them from the noise in gravitational-wave detectors which is crucial for any further analysis in terms of generating the correct Parameter Estimations and the corresponding R-K Diagrams as a part of the Secondary Analysis. Hence, this approach not only helps to improve the detection of gravitational-wave signals but also aids in the accurate inference of the properties of the astrophysical sources that generate them. As our understanding of these noise sources improves, so too will our ability to detect and interpret gravitational-wave signals. \cite{24.4_CompactBinaryParameterEstimates} \cite{24.6_LIGOParameterEstimates} \cite{24.5_GWParameterEsitmation}The corresponding code along with our modified R-K Pipeline for LIGO and its applications on this dataset can be found on \href{https://github.com/animikhroy/rk_toolkit_pipeline_diagrams/tree/main/02_notebooks/rk_gw_mma}{Github: rk-gw-mma} \& \href{https://github.com/animikhroy/rk_toolkit_pipeline_diagrams/tree/main/03_rk-visualizer}{Github: 03-rk-visualiser} for reference purposes.
+
+
+\subsubsection{Strain Data}
 
     The R-K pipeline was retrofitted to run additional precursor steps on strain data as explained in the previous section. This is mainly done as a part of the additional component steps added to the R-K pipeline for reasons explained in section 6.6. The figure below demonstrates plotting of the raw data-strains with initial filters as explained. This process was then extended for all 4 selected events for the purpose of initial analysis and validation, namely:  GW170729, GW170817, GW190521 \& GW190814. The purpose of choosing all 4 events in parallel was done to demonstrate their eventual representations on an expanded topological "Event-scape" that would spread across a plane of GPS times and merger frequencies for all the events plotted together for the sake of future comparison.
 
@@ -212,7 +230,7 @@ Thus, the Q- transform pipeline can be thought of as an optimal matched filter s
 
     This allowed us to achieve significant noise elimination while preserving the essential frequencies and spectral energy densities of the merger signals about their corresponding GPS times which could also be reverified using established secondary data from LIGO, thereby establishing the validity of this technique as shown in the above diagram.
 
-    Furthermore, our computational framework allowed for the visualization and mapping of the peak frequency of the 3D wave spectral densities to their corresponding GPS time stamps using phase projection techniques described in the mathematical formalism of this paper.
+    Furthermore, our computational framework allowed for the visualization and mapping of the peak frequency of the 3D wave spectral densities to their corresponding GPS time stamps using 2D phase projection techniques described in the mathematical formalism of this paper.
 
     \subsubsection{Phase Projections}
 
@@ -221,14 +239,72 @@ Thus, the Q- transform pipeline can be thought of as an optimal matched filter s
         \centering
         \includegraphics[width=1.0\linewidth]{images/50_07_Phase Projections of Noise Reduced Topological Merger Signals.png}
         \caption{\textit{Combined Phase Projections of Noise Reduced Compact Binary Merger Signals}}
-        \label{fig:LIGO5_PlaceHolder_fig}
+        \label{fig:2D_Phase_Space_Projections}
+    \end{figure}
+    
+This would in tern allow us to carry out a topological study of the different 3D waves via their corresponding 2D projections, we can start by examining the elliptical 2D projections of the 3D wave functions as seen in case of \ref{fig:2D_Phase_Space_Projections} and simplified further in the figure below to explain our simplified approach towards this topological feature comparison study.
+
+ \begin{figure}[H]
+        \centering
+        \includegraphics[width=1.0\linewidth]{images/80_WaveFunction Topology.jpg}
+        \caption{\textit{The above diagram demonstrates how $\Delta r = r_{\text{outer}} - r_{\text{inner}}$ can be determined from 2D projections of 3D GW wave-forms in noise-filtered ASD plots via a simplified study of the topological nature of the wave-forms prior to in-depth modelling with Betti Number Analysis}}
+        \label{fig:2D_Phase_Space_Projections}
     \end{figure}
 
-    \subsection{Secondary Analysis}
+The 2D projections are essentially heat maps of the 3D functions, where the colour represents the amplitude of the 3D function at a given point in the x-y plane. In our case, the 2D projections are elliptical in nature due to the Gaussian nature of the 3D functions.
+
+To calculate the inner and outer radii of the elliptical 2D projections, we need to find the semi-major and semi-minor axes of the ellipse. However, since we are dealing with a heat map representation of a 3D function, the "radius" in this context refers to the distance from the centre of the ellipse to the point where the amplitude of the 3D function starts to decrease significantly.
+
+Let's denote the 3D function as $f(x, y)$, and its 2D projection (the heat map) as $P(x, y)$. The centre of the ellipse (the peak of the 3D function) is at $(h, k)$ , and the semi-major and semi-minor axes are $(a)$ and $(b)$, respectively.
+
+The equation of an ellipse in the x-y plane is given by:
+
+\begin{equation}
+\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1
+\end{equation}
+
+
+To find the inner and outer radii, we need to find the values of $(a)$ and $(b)$. This can be done by examining the 2D projection and finding the points where the amplitude of the 3D function (represented by the colour in the heat map) starts to decrease significantly. These points can be considered as the boundaries of the inner and outer radii.
+
+Let's denote the boundary of the inner radius as \begin{equation}
+r_{\text{inner}}
+\end{equation} and the boundary of the outer radius as \begin{equation}
+r_{\text{outer}}
+\end{equation}. These can be calculated as follows:
+
+\begin{equation}
+r_{\text{inner}} = \min_{(x, y) \in P} \sqrt{(x-h)^2 + (y-k)^2}
+\end{equation}
+
+\begin{equation}
+r_{\text{outer}} = \max_{(x, y) \in P} \sqrt{(x-h)^2 + (y-k)^2}
+\end{equation}
+
+
+where $(x, y) in P$ means that the point $(x, y)$ is in the 2D projection.
+
+The difference between the outer and inner radii can be calculated as:
+
+
+\begin{equation}
+\Delta r = r_{\text{outer}} - r_{\text{inner}}
+\end{equation}
+
+
+This gives us a measure of the "spread" of the 3D function in the x-y plane.
+
+So in order to find the inner and outer radii, we can examine the 2D projections and find the points where the amplitude of the 3D function (represented by the colour in the heat map) starts to decrease significantly. These points can be considered as the boundaries of the inner and outer radii.
+
+Once we have the inner and outer radii for each 3D function, we can compare them to study the differences in the "spread" of the 3D functions in the x-y plane. This can give us an idea of how the shape of the 3D function changes with different wave functions.
+
+This method can be used as a simplified starting point for a more detailed topological study of the 3D waves. For a more in-depth analysis, we may need to consider other topological properties of the 3D functions, such as their genus (the number of "holes" in the function), their Euler characteristic, while carrying out corresponding Betti Number Analysis or other topological invariants which are beyond the scope of this initial publication.
+
+
+\subsection{Secondary Analysis}
 
     We shall now extend the pipeline with the  exploration of secondary measures obtained using posterior probabilities and Bayesian parameter estimates in established research. \cite{24.0_BinaryMergerIdentification} \cite{24.4_CompactBinaryParameterEstimates} \cite{24.5_GWParameterEsitmation} \cite{24.6_LIGOParameterEstimates} It is however, important to note that the current version of the LIGO R-K pipeline does not address the computation of posterior probabilities and Bayesian parameter estimates from Primary Data. This remains to be in the scope of future research which could potentially help automate this entire process thereby generating R-K diagrams directly from detector signal data in near-real time and classifying them into a specific category of compact objects such as Black Holes, Neutron Stars, Primordial Black Hole Candidates etc.
 
-    However, for the sake of the first version of the computational framework and R-K pipeline, we have restricted the scope of this paper in carrying out Secondary Analysis on the estimated physical measures corresponding to each merger event as published. \cite{00_LIGOOpenSciData} \cite{00.7_LIGOBayesianAnalysis} \cite{00.6_LIGOAnalysisPipeline}
+    However, for the sake of the first version of the computational framework and R-K pipeline, we have restricted the scope of this paper in carrying out Secondary Analysis on the estimated physical measures corresponding to each merger event as published. \cite{00_LIGOOpenSciData} \cite{00.7_LIGOBayesianAnalysis} \cite{00.6_LIGOAnalysisPipeline} The corresponding code along with our modified R-K Pipeline for LIGO and its applications on this dataset can be found on \href{https://github.com/animikhroy/rk_toolkit_pipeline_diagrams/tree/main/02_notebooks/rk_gw_mma}{Github: rk-gw-mma-secondary-analysis} for reference purposes.
 
     \subsubsection{Omni-view Plots}
 
@@ -241,7 +317,7 @@ Thus, the Q- transform pipeline can be thought of as an optimal matched filter s
         \label{fig:LIGO6_PlaceHolder_fig}
     \end{figure}
 
-    This allows for the graphical comparison of any two parameters thereby helping us identify exceptional properties of various merger events and compare them to the standard ones as done in case of the 4 merger events ( GW170729, GW170817, GW190521 \& GW190814) selected using this exercise. Now by removing the leading diagonal and all repeated  in graphical plots he omni-plot shown in the above diagram, one can easily cluster dependent and independent variable clusters for building R-K models. A more detailed and usable version of this omni-plot is available on \url{https://dev.topobot.ai/}
+    This allows for the graphical comparison of any two parameters thereby helping us identify exceptional properties of various merger events and compare them to the standard ones as done in case of the 4 merger events ( GW170729, GW170817, GW190521 \& GW190814) selected using this exercise. Now by removing the leading diagonal and all repeated  in graphical plots he omni-plot shown in the above diagram, one can easily cluster dependent and independent variable clusters for building R-K models. A more detailed and usable version of this omni-plot is available on \url{https://youtu.be/iwMsETob58w}.
 
     \subsubsection{Event Dendograms}
 
@@ -301,7 +377,7 @@ The next stage addresses all the nodes of each cluster separately in Phase Space
         \label{fig:LIGO11_PlaceHolder_fig}
     \end{figure}
 
-The final step links all the nodes in the correct manner directed to the highest or lowest value according to the choice of the user. However, in this case we have used the Leaf Linker to connect all the node values with edges within the cluster pointing towards the highest value of each measure. The edges also represent the entire range of possible values with any amount of granularity between the maximum and minimum range of each probable measure. This also gives rise to DAGs and simplicial complexes within each independent cluster of an R-K model. As a final step all nodes in each cluster are then linked to the parent node or the "event node" represented in blue in the above diagram. We have also carried out isometric-compression of such structural graphs based on the euclidean distance using the Leaf Linker algorithm. This single linkage clustering was also done via the Leaf Linker available as a part of the R-K toolkit.
+The final step links all the nodes in the correct manner directed to the highest or lowest value according to the choice of the user. However, in this case we have used the Leaf Linker to connect all the node values with edges within the cluster pointing towards the highest value of each measure. The edges also represent the entire range of possible values with any amount of granularity between the maximum and minimum range of each probable measure. This also gives rise to DAGs and simplicial complexes within each independent cluster of an R-K model. As a final step all nodes in each cluster are then linked to the parent node or the "event node" represented in blue in the above diagram. We have also carried out isometric-compression of such structural graphs based on the euclidean distance using the Leaf Linker algorithm. This single linkage clustering was also done via the Leaf Linker available as a part of the R-K toolkit. Each of the above steps along with the corresponding graph plots can be accessed on \href{https://github.com/animikhroy/rk_toolkit_pipeline_diagrams/tree/main/03_rk-visualizer}{Github: rk-visualiser}.
 
 \subsubsection{Unfiltered Structural Graphs}
 
@@ -319,7 +395,7 @@ However, as detailed in the previous case-study with store-sales data, these str
 
 \subsubsection{Data Filters \& Sensitivity Thresholds for Filtered R-K Diagrams}
 
-The modified R-K pipeline for LIGO comes with a built-in visualizer and a GUI to track each step of the process from loading primary/raw strain data all the way up to plotting R-K diagrams. This is given to users to enable the smooth application of node masks and range filters to all the selected clusters of unfiltered R-K models for all binary merger events. One can use the GUI to run through and validate each step of the process described in this case study. 
+The modified R-K pipeline for LIGO comes with a built-in visualizer and a GUI to track each step of the process from loading primary/raw strain data all the way up to plotting R-K diagrams. This is given to users to enable the smooth application of node masks and range filters to all the selected clusters of unfiltered R-K models for all binary merger events. One can use the GUI to run through and validate each step of the process described in this case study. The GUI can be accessed here on \href{https://github.com/animikhroy/rk_toolkit_pipeline_diagrams/tree/main/03_rk-visualizer}{Github:03-rk-visualiser} and downloaded and run in any native python environment that matches the required software \& hardware specifications as mentioned on \href{https://github.com/animikhroy/rk_toolkit_pipeline_diagrams/tree/main}{GitHub}.
 
     \begin{figure}[H]
         \centering
@@ -404,7 +480,7 @@ The above diagram shows multiple merger events plotted in the event-scape for wh
 
 \subsection{Intra-class Distance and Similarity Measures of CBCs}
 
-This resulted in an initial average intra-class topological distance separation of \textbf{0.17} between BH-BH mergers upon applying the parameter specific Range Filters and Node Masks discussed in the previous sections. This would imply an intra-class similarity of \textbf{0.83} between BH-BH mergers. It was also interesting to note an inter-class topological distance separation of \textbf{0.32} between BH-BH and confident NS-NS mergers which would imply a lower order inter-class similarity of \textbf{0.68} and verifies the effectiveness of R-K diagrams and the R-K pipeline to a significant extent. Comparative studies based on similarity measures of the candidate PBH was left for the next section as no clear or conclusive results were obtained using the untuned  models. 
+This resulted in an initial average intra-class topological distance separation of \textbf{0.17} between BH-BH mergers upon applying the parameter specific Range Filters and Node Masks discussed in the previous sections. This would imply an intra-class similarity of \textbf{0.83} between BH-BH mergers. An average intra-class topological distance separation of \textbf{0.18} between NS-NS \& NS-BH mergers upon applying the parameter specific Range Filters and Node Masks discussed in the previous sections. This would imply an intra-class similarity of \textbf{0.82} between NS-NS \& NS-BH mergers.It was also interesting to note an inter-class topological distance separation of \textbf{0.32} between BH-BH and confident NS-NS mergers which would imply a lower order inter-class similarity of \textbf{0.68} and verifies the effectiveness of R-K diagrams and the R-K pipeline to a significant extent. Comparative studies based on similarity measures of the candidate PBH was left for the next section as no clear or conclusive results were obtained using the untuned  models. 
 
 
 \subsubsection{Tuned Results with Combinatorial Machine Learning Optimization}
@@ -439,11 +515,13 @@ various CBC events. Thus the pipeline required two levels of optimization. The S
  	\label{fig:LIGO16_PlaceHolder_fig}
 \end{figure}
 
-This gave us closer intra-class topological separation between BH-BH mergers which were recorded with an average similarity measure between the range of $\lbrack0.9, 0.96\rbrack$ and NS-NS Mergers between a range   $\lbrack0.59, 0.65\rbrack$. The candidate PBH measured an inter-class similarity of 0.71 with w.r.t. to NS-NS mergers and 0.62 w.r.t. BH-BH mergers with distinctly different R-K Diagrams. However, a more detailed study of the unique topological signatures and R-K diagrams of Primordial Black Holes is definitely promising but beyond the scope of this paper and should be left for future research due to the lack of conclusive data and sufficient observational parameters at present.
+This has allowed us to achieve a more precise intra-class topological separation between \textbf{BH-BH} mergers, which were observed with an average similarity measure within the range of \textbf{[0.91, 0.95]}, and \textbf{NS-NS} mergers within a range of \textbf{[0.85, 0.89]}. The candidate \textbf{PBH / NS-BH} exhibited an intra-class similarity of \textbf{0.82}, due to the limited quantity of support and training data available to enhance accuracy scores across this class.Furthermore, a more detailed study of the unique topological signatures and R-K diagrams of Primordial Black Holes is definitely promising but beyond the scope of this paper and should be left for future research due to the lack of conclusive data and sufficient observational parameters at present.
+
+However, this clearly underscores the unique potential of the R-K models based on Topology and Graph Theory. These models are capable of producing R-K diagrams with distinct topologies across different classes and calculating R-K distance and similarity scores with a reasonable degree of accuracy, all without the need for a large number of support vectors or extensive training data. 
 
 \subsection {Median R-K Diagram Topologies of different CBC classes and Inter-Class Distance Measures}
 
-Median Topology of R-K Diagrams with all Parameter Estimates 
+\subsubsection{Median Topology of R-K Diagrams with all Parameter Estimates }
 \begin{figure}[H]
  	\centering
         \includegraphics[width=0.5\textwidth]{images/Median_Topologies_All_Parameters.jpg}
@@ -451,9 +529,21 @@ Median Topology of R-K Diagrams with all Parameter Estimates
 	\label{fig:Median_Topo_All}
 \end{figure}
 
-Median Topology of Isometrically Compressed R-K Diagrams with 4 selected parameter clusters for comparative analysis and demonstration.
+Median Topology of R-K Diagrams with all 15 Parameter Estimates and simulated EM counter-parts shown in the purple graph cluster. As we can see, Each class of CBC beloging to a disctinct category such as : BH-BH (high-mass), BH-BH (low-mass), NS-NS, NS-BH \& Candidate PBH mergers exhibit a distinct median topology in the R-K diagrams, which can be analysed based on their topological properties, such as the number of nodes, edges, and clusters, as well as their spatial distribution and connectivity and then we can obtain a final similarity score by applying the \hyperref[sec:rk_distance]{ R-K Distance Function}.
 
-Median Topology of R-K Diagrams with all 15 Parameter Estimates 
+For instance, high-mass BH-BH mergers might exhibit a higher magnitudinal value of each node in its mass cluster while representing a distinctly different simplex in its q-ratio cluster in the corresponding R-K diagrams, which also reflect the high mass ratios and spin magnitudes associated with these events. 
+
+On the other hand, low-mass BH-BH mergers might exhibit a more dispersed distribution of nodes and edges which are lower in magnitude compared to high-mass BH-BH mergers in the median R-K diagram, combined with the difference in  mass ratios and spin magnitudes that these events can encompass. The distinct spatial distribution and connectivity of nodes in this diagram provide a different topological 'fingerprint' that can be used to distinguish low-mass BH-BH mergers from their high-mass counterparts.
+
+Similarly, NS-NS mergers and Candidate PBHs also exhibit their own distinct 'topological features' in their corresponding R-K diagrams, reflecting the specific properties and characteristics of these events. For example, NS-NS mergers might exhibit a cluster of nodes and edges corresponding to the EM counterpart parameter, while Candidate PBHs would exhibit no nodes and edges in this cluster.
+
+Thus analysing these topological 'fingerprints', the R-K Pipeline can identify and classify different types of CBC signatures based on their distinct topological properties. This provides a powerful tool for the analysis and classification of CBC events, and can potentially offer new insights into the nature and properties of these astrophysical phenomena.
+
+ \subsubsection{Median Topology of Isometrically Compressed R-K Diagrams with 4 selected parameter clusters for comparative analysis and demonstration}
+ 
+ These R-K Diagrams only contain filtered clusters pertaining to Mass, Spin, Q-Ratio and Redshift of each CBC Merger event without any corresponding EM counterparts as shown in the diagrams below for a more simplified comparison of what was explained in the previous section. This focuses only on the most importnat identifying characteristics without EM counterparts accorss each class of CBC under consideration in this paper.
+
+
 \begin{figure}[H]
  	\centering
         \includegraphics[width=0.5\textwidth]{images/Median_Topology_of_Compressed_RK-Diagrams.jpg}
@@ -461,7 +551,7 @@ Median Topology of R-K Diagrams with all 15 Parameter Estimates
 	\label{fig:Median_Topo_Compressed}
 \end{figure}
 
-Inter-class distance and similarity scores across different CBC R-K Diagram Topologies
+ \subsubsection{Inter-class distance and similarity scores across different CBC R-K Diagram Topologies}
 
 \begin{figure}[H]
  	\centering
@@ -470,8 +560,28 @@ Inter-class distance and similarity scores across different CBC R-K Diagram Topo
 	\label{fig:Inter-class_distance}
 \end{figure}
 
+The above table provides a comprehensive comparison of different classes of Compact Binary Coalescence (CBC) events, which are astronomical events involving the merger of two compact objects such as black holes or neutron stars. The table is based on the analysis of gravitational wave signals using R-K Diagrams and the R-K Distance Function, which are tools used in topological data analysis to study the shape and structure of data. The R-K Diagrams provide a visual representation of the data, while the R-K Distance Function provides a measure of the topological distance or dissimilarity between different classes of CBC events.
 
-Comparison of CBC topologies NS-BH, and candidate PBH-BH with additional parameters such as EM counterparts from multi-messenger data.
+The columns in the table represent the following:
+
+\begin{enumerate}
+    \item \textit{Class 1 (CBC Event) \& Class 2 (CBC Event):} These columns list the two classes of CBC events being compared. The classes include high-mass and low-mass black hole mergers (BH-BH), neutron star mergers (NS-NS), mergers involving a neutron star and a black hole (NS-BH), and candidate primordial black holes (PBH).
+
+    \item \textit{Topological Distance:} This column provides a measure of the topological distance between the two classes of CBC events. This is a measure of how different the topological structures of the events are, with lower values indicating more similarity.
+
+    \item  \textit{Value Distance:} This column provides a measure of the value distance between the two classes of CBC events. This is a measure of how different the values (such as mass, spin, etc.) of the events are, with lower values indicating more similarity.
+
+    \item  \textit{Composite Distance:} This column provides a measure of the composite distance between the two classes of CBC events. This is a combined measure that takes into account both the topological and value distances. Importantly, the composite distance is the inverse of similarity, meaning that lower values indicate higher similarity.
+
+    \item  \textit{Average Similarity Score:} This column provides a measure of the average similarity between the two classes of CBC events. This is a measure of how similar the events are on average, with higher values indicating more similarity.
+
+\end{enumerate}
+ 
+This is a preliminary result with median topologies of each class of R-K diagrams without training the R-K pipeline on the non-gradient combinatorial optimiser function which will be addressed in case of our final multi-modal classification demonstration with t-SNE.
+
+\subsubsection{Comparison of NS-BH \& PBH Candidate R-K Diagrams}
+
+Comparison of CBC topologies NS-BH, and candidate PBH-BH with additional parameters such as EM counterparts with simulated multi-messenger data show a distinct difference in topologies of the two candidates as expected in accordance with theoretical predictions. Thus they could provide an effective means for the R-K Multi-messenger Pipeline to identify and classify these signatures with reasonable accuracy and confidence in future, albeit with more support and training data.
 
 \begin{figure}[H]
  	\centering
@@ -480,8 +590,9 @@ Comparison of CBC topologies NS-BH, and candidate PBH-BH with additional paramet
 	\label{fig:Multi-NSBH-PBH}
 \end{figure}
 
+\subsubsection{NS-BH \& Candidate PBH R-K Diagram Comparisons}
 
-Comparison of compressed CBC topologies NS-BH, and candidate PBH-BH without additional parameters such as EM counterparts from multi-messenger data.
+Comparison of compressed CBC topologies NS-BH, and candidate PBH-BH without additional parameters such as EM counterparts with simulated multi-messenger data. It is clearly demonstrated that the NS-BH and PBH-candidate events display the same topology but would vary at the level of the magnitudinal value of nodes and edges which creates separation for them upon applying the \hyperref[sec:rk_distance]{ R-K Distance Function}.However, their overall topologies are similar without the simulated EM counterparts which further validate the effectiveness of the R-K Pipeline in matching domain-specific theoretical predictions.
 
 \begin{figure}[H]
  	\centering
@@ -519,7 +630,7 @@ Overall, t-SNE is a valuable addition to our machine learning R-K Toolkit, there
 In the context of this paper, we have not only used t-SNE for the purpose of achieving multi-modal classifications of CBC merger events via the \hyperref[sec:rk_distance]{R-K Distance Function} but also as an effective dimensionality reduction technique to simplify both the visualization and computation required for the representation of R-K diagrams across different CBC classes. In \hyperref[fig:ligo_tsne]{Figure 59} the t-SNE visualization helps to show the distinct multi-modal classification of different classes of black hole merger events based on their intrinsic properties of mass, spin, q-values etc. with the help of the resultant R-K diagrams. 
 
 The machine learning model in the R-K pipeline uses t-SNE and 
- R-K Distance to maximise inter-class separation between High-Mass Black Holes, Low-Mass Black Holes and NS-NS, NS-BH/Candidate-PBH mergers and separate them distinctly using SVM (Support Vector Machine) slopes.\cite{25.8_1995SVMSlopes} Most importantly it is able to do so on a very limited data-set via the generation of the median topologies of R-K Diagrams belonging to each CBC category in an effective manner. However, as demonstrated earlier the median topologies of NS-BH and Candidate PBH mergers are indistinguishable without adding the EM-counterparts from multi-messenger data and hence no inter-class separation was demonstrated in the figure as the R-K Diagrams were only modelled purely on LIGO Open Science Data.\cite{00_LIGOOpenSciData}. Furthermore, inter-class separation was not shown between NS-NS and NS-BH/Candidate PBH events as the pipeline was trained on the R-K Diagram of a single NS-NS merger pertaining to GW 170817. Hence, we can conclude that more support-data is required to achieve distinct inter-class separation between NS-NS and NS-BH/Candidate PBH events, which can be addressed in a separate follow-up study using simulated GW injections.
+ R-K Distance to maximise inter-class separation between High-Mass Black Holes, Low-Mass Black Holes and NS-NS, NS-BH/Candidate-PBH mergers and separate them distinctly using SVM (Support Vector Machine) slopes.\cite{25.8_1995SVMSlopes} This resulted in  \textbf{final Inter-class similarity measures} between high-mass black holes (BH-BH) , neutron stars (NS-NS), (NS-BH)\& candidate PBH were found to be between \textbf{0.78 \& 0.83} with distinctly different R-K Diagrams that were separated by the SVM classification slopes as demonstrated in \hyperref[fig:ligo_tsne]{Figure 59}.Most importantly it is able to do so on a very limited data-set via the generation of the median topologies of R-K Diagrams belonging to each CBC category in an effective manner which could improve significantly with more injection studies with more diverse support and training data. However, as demonstrated earlier the median topologies of NS-BH and Candidate PBH mergers are indistinguishable without adding the EM-counterparts from multi-messenger data and hence no inter-class separation was demonstrated in the figure as the R-K Diagrams were only modelled purely on LIGO Open Science Data.\cite{00_LIGOOpenSciData}. Furthermore, inter-class separation was not shown between NS-NS and NS-BH/Candidate PBH events as the pipeline was trained on the R-K Diagram of a single NS-NS merger pertaining to GW 170817. Hence, we can conclude that more support-data is required to achieve distinct inter-class separation between NS-NS and NS-BH/Candidate PBH events, which can be addressed in a separate follow-up study using simulated GW injections.
 
 \subsubsection{ Mapping R-K Event-Scape to Primary Data Signatures}
  
